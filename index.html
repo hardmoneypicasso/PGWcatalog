@@ -23,7 +23,13 @@
                     </a>    
                 </div>
                 <nav id="mobNav">
-                        <img id="navMenuButton" class="menuClosed" src="media/cloverbase1.png" height=50>
+                        <div id="navMenuButton" class="menuClosed" >
+                            <h1>
+                                <img src="media/starSprite.png" height=70 style= "padding-top: -5px; padding-bottom: 5px; transform:translateY(30px);">
+                                navigation
+                                <img src="media/starSprite.png" height=70 style= "padding-top: -5px; padding-bottom: 5px; transform:translateY(30px)">
+                            </h1>
+                        </div>
                         <ul id="navMenu">
                             <!-- <li id="poemsNavBar"></li>
                             <li id="proseNavBar"></li>
@@ -146,10 +152,12 @@
                         const item = document.createElement("li");
                         const imageL = document.createElement("img");
                         imageL.src = "media/cloverbase1.png";
-                        imageL.height = 10;
+                        imageL.height = 40;
+                        imageL.style = "transform: translateY(10px)";
                         const imageR = document.createElement("img");
                         imageR.src = "media/cloverbase1.png";
-                        imageR.height = 10;
+                        imageR.height = 40;
+                        imageR.style = "transform: translateY(10px)";
 
                         item.textContent=navItems[i];
                         item.prepend(imageL);

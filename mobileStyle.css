@@ -61,16 +61,24 @@
             }
            
             #mobNav {
+                display: block;
                 background-color: #b19ed3ef;
                 width: 100%;
                 justify-content: center;
                 align-items: center;
             }
 
+            #mobNav h1 {
+                padding-top: -20px;
+                padding-bottom: 20px;
+            }
+
             #mobNav ul {
                 padding: 0;
                 margin: 0;
-
+                font-size: 40px;
+                font-style: italic;
+                list-style-type: none;
             }
 
 
