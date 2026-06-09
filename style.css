@@ -245,13 +245,13 @@
                     order: 1;
                 }
 
-                #leftSidebar {
+                /* #leftSidebar {
                     order: 2;
                 }
 
                 #rightSidebar {
                     order: 3;
-                }
+                } */
 
                 #navbar ul {
                     flex-wrap: wrap;
