@@ -3,7 +3,8 @@
   <head>
 
     <!-- style sheet -->
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="mobileStyle.css">
 
     <!-- meta data -->
     <meta charset = "UTF-8">
@@ -21,8 +22,17 @@
                         <img src="media/headerlogo-1.png" height=150>
                     </a>    
                 </div>
-            </div>
-            
+                <nav id="mobNav">
+                        <img id="navMenuButton" class="menuClosed" src="media/cloverbase1.png" height=50>
+                        <ul id="navMenu">
+                            <!-- <li id="poemsNavBar"></li>
+                            <li id="proseNavBar"></li>
+                            <li id="blogsNavBar"></li>
+                            <li id="picsNavBar"></li>
+                            <li id="logNavBar"></li> -->
+                        </ul>
+                </nav>
+             </div>
 
             <div id="flex">
                 <!-- LEFT SIDE BAR / NAVIGATION PANE -->
@@ -119,5 +129,45 @@
                 </rightSidebar>
             </div>
         </div>
-  </body>
+        
+        <script>
+            const menuBtn= document.querySelector("#navMenuButton");
+            const navArea= document.querySelector("#mobNav");
+            // const poemsItem= document.querySelector("#poemsNavBar");
+            const navList= document.querySelector("#navMenu");
+            const navItems= ["poems","prose","pics","blogs","logs"];
+
+            menuBtn.addEventListener("click", navOpen);
+            
+            function navOpen() {
+                if (menuBtn.className == 'menuClosed'){
+
+                    for (let i = 0; i<5; i++){
+                        const item = document.createElement("li");
+                        const imageL = document.createElement("img");
+                        imageL.src = "media/cloverbase1.png";
+                        imageL.height = 10;
+                        const imageR = document.createElement("img");
+                        imageR.src = "media/cloverbase1.png";
+                        imageR.height = 10;
+
+                        // item.appendChild(imageL);
+                        item.textContent=navItems[i];
+                        item.prepend(imageL);
+                        item.appendChild(imageR);
+                        navList.appendChild(item);
+                    }
+
+                    menuBtn.className = 'menuOpened';
+                }else {
+                    for (let i = 0; i<5; i++){
+                        navList.removeChild(navList.lastChild);
+                    }
+                    menuBtn.className = 'menuClosed';
+                }
+            }
+
+        </script>
+
+    </body>
 </html>

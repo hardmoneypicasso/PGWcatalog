@@ -59,39 +59,43 @@
                 background-color: rgb(250 212 192 / 95%);
                 height: 250px;
             }
-
-/*          NAVBAR CURRENTLY UNUSED            
-            #navbar {
-                height: 40px;
-                background-color: #29A42B;
+           
+            #mobNav {
+                background-color: #b19ed3ef;
                 width: 100%;
+                justify-content: center;
+                align-items: center;
             }
 
-            #navbar ul {
-                display: flex;
+            #mobNav ul {
                 padding: 0;
                 margin: 0;
-                list-style-type: none;
-                justify-content: space-evenly;
+
             }
 
-            #navbar li {
-                padding-top: 10px;
+
+            #mobNav ul li {
+                justify-content: center;
+                align-items: center;
+
+
             } 
 
-            #navbar li a {
+            #mobNav li a {
                 color: #ED64F5;
                 font-weight: 800;
                 text-decoration: none;
             }
 
-            #navbar li a:hover {
+            #mobNav li a:hover {
                 color: #a49cba;
                 text-decoration: underline;
-            } */
+            }
+
 
             #flex {
                 display: flex;
+                padding-top: 10px;
             }
 
             /* LEFT SIDE BAR STYLING AND SIZING */
@@ -120,11 +124,11 @@
 
             /* FLEX ORDERING */
             #leftSidebar {
-                order: 1;
+                display: none;
             }
 
             #rightSidebar {
-                order: 3;
+                display: none;
             }
 
 /*          FOOTER CURRENTLY UNUSED   
@@ -216,44 +220,4 @@
                 padding: 10px;
                 font-size: smaller;
                 background-color: #13092D;
-            }
-
-
-            /* BELOW THIS POINT IS MEDIA QUERY */
-
-            /* so you wanna change the width of your page? 
-    by default, the container width is 900px.
-    in order to keep things responsive, take your new height,
-    and then subtrack it by 100. use this new number as the 
-    "max-width" value below
-    */
-
-            @media only screen and (max-width: 900px) {
-                #flex {
-                    flex-wrap: wrap;
-                }
-
-                aside {
-                    width: 100%;
-                }
-
-                /* the order of the items is adjusted here for responsiveness!
-      since the sidebars would be too small on a mobile device.
-      feel free to play around with the order!
-      */
-                main {
-                    order: 1;
-                }
-
-                #leftSidebar {
-                    order: 2;
-                }
-
-                #rightSidebar {
-                    order: 3;
-                }
-
-                #navbar ul {
-                    flex-wrap: wrap;
-                }
             }
