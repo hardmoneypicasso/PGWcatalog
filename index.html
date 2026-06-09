@@ -3,8 +3,8 @@
   <head>
 
     <!-- style sheet -->
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <link rel="stylesheet" href="mobileStyle.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobileStyle.css">
 
     <!-- meta data -->
     <meta charset = "UTF-8">
@@ -151,7 +151,6 @@
                         imageR.src = "media/cloverbase1.png";
                         imageR.height = 10;
 
-                        // item.appendChild(imageL);
                         item.textContent=navItems[i];
                         item.prepend(imageL);
                         item.appendChild(imageR);
