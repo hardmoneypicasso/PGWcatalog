@@ -92,6 +92,11 @@
                 order: 2;
             }
 
+            #logsHome {
+                background-color: #b19ed3ef;
+            }
+
+
             /* FLEX ORDERING */
             #leftSidebar {
                 order: 1;
@@ -99,6 +104,10 @@
 
             #rightSidebar {
                 order: 3;
+            }
+
+            #rightSidebarLogs {
+                display: none;
             }
 
 /*          FOOTER CURRENTLY UNUSED   
@@ -128,7 +137,17 @@
             .box {
                 background-color: #58cf58;
                 border: 1px solid #343A1A;
+                margin: 5px;
                 padding: 5px;
+                padding-bottom: 5px;
+            }
+
+            .guestbookBox {
+                background-color: rgb(250 212 192);
+                border: 1px solid #343A1A;
+                margin: 5px;
+                padding: 5px;
+                padding-bottom: 5px;
             }
 
             /* CSS formatting for box/updates */

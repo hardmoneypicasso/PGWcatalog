@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- style sheet -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobileStyle.css">
+
+    <!-- meta data -->
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <meta name = "author" content = "Peter White">
+    <meta name = "description" content = "Peter's portfolio and seasonal blog">
+    <title> PGW- home </title>
+  </head>
+  <body>
+        <div id="container">
+            <!-- HEADER -->
+            <div id="headerArea">
+                <div id="header" style="margin-bottom: 10px; margin-top:10; height: 150px;">
+                    <a href="home.html">
+                        <img src="media/headerlogo-1.png" height=150>
+                    </a>    
+                </div>
+                <nav id="mobNav">
+                        <div id="navMenuButton" class="menuClosed" >
+                            <h1>
+                                <img src="media/starSprite.png" height=70 style= "padding-top: -5px; padding-bottom: 5px; transform:translateY(30px);">
+                                navigation
+                                <img src="media/starSprite.png" height=70 style= "padding-top: -5px; padding-bottom: 5px; transform:translateY(30px)">
+                            </h1>
+                        </div>
+                        <ul id="navMenu">
+                            <!-- <li id="poemsNavBar"></li>
+                            <li id="proseNavBar"></li>
+                            <li id="blogsNavBar"></li>
+                            <li id="picsNavBar"></li>
+                            <li id="logNavBar"></li> -->
+                        </ul>
+                </nav>
+             </div>
+
+            <div id="flex">
+                <!-- LEFT SIDE BAR / NAVIGATION PANE -->
+                <leftSidebar id="leftSidebar" style="margin-right: 10px;">
+                    
+                     <!-- nav menu! -->
+                    <a href="underConstruction.html">
+                        <img src="media/poemclover.png" width=140 height=140 style="transform: translateX(-10px)">
+                    </a>
+
+                    <a href="underConstruction.html">
+                        <img src="media/cloverBlogs.png" width=140 height=140 style="transform: translateX(-20px)">
+                    </a>
+
+                    <img src="media/poemclover.png" width=140 height=140 style="transform: translateX(-10px)">
+
+                    <img src="media/poemclover.png" width=140 height=140 style="transform: translateX(-10px)">
+
+                </leftSidebar>
+                
+                <!-- MAIN BLOCK / POST INFO -->
+                <main>
+                    <article>
+                    <h1>Under Construction!</h1>
+                    <h2>This webpage will be completed soon, check back to see the finished product! </h2>
+                    <p>click <a href="home.html">here</a> to go back the home page! </P>
+                    
+                    </article>
+                </main>
+
+                <!-- RIGHT SIDE BAR / UPDATE PANE -->
+                <rightSidebar id="rightSidebar" style="margin-left: 10px;">
+                     <!-- updates! -->
+                    <div class="box">
+                        <!-- TITLE OF POST -->
+                        <h2 class="header2Update">Ishmael</h2>  
+                        <!-- SUBTITLE / AUTHOR -->
+                        <h3 class="header3Update">by Daniel Quinn</h3>
+                        <!-- RATING OUT OF FIVE CLOVERS (requires float in CSS)-->
+                        <div class="ratingUpdate">
+                            <img src="media/cloverbase1.png" width=20 height=20>
+                            <img src="media/cloverbase1.png" width=20 height=20>
+                            <img src="media/cloverbase1.png" width=20 height=20>
+                            <img src="media/cloverbase1.png" width=20 height=20>
+                            <img src="media/cloverHalf.png" width=20 height=20>
+                        </div>
+                        <p class="ratingTextUpdate">| 4.5 / 5</p>
+                        <!-- BODY OF POST (requires clearing float in CSS)
+                         to add... "show more..." button -->
+                        <p class="pUpdate">
+                            Culture and modern history are defined by consumption and control, but the gorilla teacher is right! There's another way. 
+                            This novel is compelling throughout, even in moments where the format can become a little repetitive. I found it challenging
+                            and enlightening, and would absolutely recommend it to anyone. Especially those who feel hopeless about the future.
+                        </p>
+                        <!-- date finished or posted :) -->
+                        <p class="dateTagUpdate"> Finished on 5/3/2026</p>
+                    </div>
+                </rightSidebar>
+            </div>
+        </div>
+        
+        <script>
+            const menuBtn= document.querySelector("#navMenuButton");
+            const navArea= document.querySelector("#mobNav");
+            // const poemsItem= document.querySelector("#poemsNavBar");
+            const navList= document.querySelector("#navMenu");
+            const navItems= ["poems","prose","pics","blogs","logs"];
+
+            menuBtn.addEventListener("click", navOpen);
+            
+            function navOpen() {
+                if (menuBtn.className == 'menuClosed'){
+
+                    for (let i = 0; i<5; i++){
+                        const item = document.createElement("li");
+                        const anchor = document.createElement("a");
+                        
+                        if(navItems[i]=='logs'){
+                            anchor.href = "logs.html"
+                        }else{
+                            anchor.href = "underConstruction.html";
+                        }
+                        
+                        const imageL = document.createElement("img");
+                        imageL.src = "media/cloverbase1.png";
+                        imageL.height = 40;
+                        imageL.style = "transform: translateY(10px)";
+                        const imageR = document.createElement("img");
+                        imageR.src = "media/cloverbase1.png";
+                        imageR.height = 40;
+                        imageR.style = "transform: translateY(10px)";
+
+                        item.textContent=navItems[i];
+                        item.prepend(imageL);
+                        item.appendChild(imageR);
+                        anchor.appendChild(item);
+                        navList.appendChild(anchor);
+                    }
+
+                    menuBtn.className = 'menuOpened';
+                }else {
+                    for (let i = 0; i<5; i++){
+                        navList.removeChild(navList.lastChild);
+                    }
+                    menuBtn.className = 'menuClosed';
+                }
+            }
+
+        </script>
+
+    </body>
+</html>
