@@ -80,6 +80,7 @@
             rightSidebar {
                 background-color: #b19ed3ef;
                 width: 250px;
+                height: 100%;
                 padding: 20px;
                 font-size: smaller;
             }
