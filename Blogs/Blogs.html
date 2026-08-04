@@ -44,14 +44,17 @@
                 
                 <!-- MAIN BLOCK / POST INFO -->
                 <main>
-                    <h1>Blogs</h1>
+                    <h1 id = "header">Blogs</h1>
 
-                    <article>
-                        <a href="catalog/summer2026.html">
+                    <article id = "contentList">
+                        <!-- <a href="catalog/summer2026.html">
                             <h2>Summer, 2026</h2>
                         </a>
                         <h3>A Fresh Start</h3>
-                        <p>Published on 6/21/2026</p>
+                        <p>Published on 6/21/2026</p> -->
+
+
+
                     </article>
                 </main>
 
@@ -85,5 +88,34 @@
                 </rightSidebar>
             </div>
         </div>
+
+        <script>
+            async function populate() {
+                const requestURL =
+                    "https://github.com/hardmoneypicasso/PGWcatalog/blob/2e1e49e17ad84c810019a5104cad397e8bc5ddf0/Blogs/summer2026.json";
+                const request = new Request(requestURL);
+
+                const response = await fetch(request);
+                const summer2026 = await response.json();
+
+                populateList(summer2026);
+            }
+
+            function populateList(obj) {
+                const contentList = document.querySelector("#contentList");
+                const listTitle = document.createElement("h2");
+                listTitle.textContent = obj.title;
+                contentList.appendChild(listTitle);
+                const listPreface = document.createElement("h3");
+                listPreface.textContent = obj.preface;
+                contentList.appendChild(listPreface);
+                const listDate = document.createElement("p");
+                listDate.textContent = "Published on " + obj.pubDate;
+                contentList.appendChild(listDate);
+            
+            }
+        </script>
+
+
   </body>
 </html>
