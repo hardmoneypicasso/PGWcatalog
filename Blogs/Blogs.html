@@ -44,7 +44,7 @@
                 
                 <!-- MAIN BLOCK / POST INFO -->
                 <main>
-                    <h1 id = "header">Blogs</h1>
+                    <h1 id = "listHead">Blogs</h1>
 
                     <article id = "contentList">
                         <!-- <a href="catalog/summer2026.html">
@@ -91,19 +91,24 @@
 
         <script>
             async function populate() {
+                console.log("fetching json");
                 const requestURL =
-                    "https://github.com/hardmoneypicasso/PGWcatalog/blob/2e1e49e17ad84c810019a5104cad397e8bc5ddf0/Blogs/summer2026.json";
+                    "https://raw.githubusercontent.com/hardmoneypicasso/PGWcatalog/e15471ddc9d1affde04598fdc44cef012a1852cf/Blogs/summer2026.json";
                 const request = new Request(requestURL);
 
                 const response = await fetch(request);
+                console.log(response.ok);
                 const summer2026 = await response.json();
 
+                console.log("json fetchedS");
                 populateList(summer2026);
             }
 
             function populateList(obj) {
+                console.log("list populating");
                 const contentList = document.querySelector("#contentList");
                 const listTitle = document.createElement("h2");
+                listTitle.id = obj.pubDate;
                 listTitle.textContent = obj.title;
                 contentList.appendChild(listTitle);
                 const listPreface = document.createElement("h3");
@@ -112,8 +117,17 @@
                 const listDate = document.createElement("p");
                 listDate.textContent = "Published on " + obj.pubDate;
                 contentList.appendChild(listDate);
-            
+                console.log("list populated");
+                const itemButton = document.querySelector("#" + obj.pubDate);
+                itemButton.addEventListener("click", openPost(obj.pubDate));
             }
+
+            function openPost(ID) {
+                console.log(ID);
+            }
+
+            populate();
+
         </script>
 
 
