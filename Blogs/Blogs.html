@@ -108,7 +108,9 @@
                 console.log("list populating");
                 const contentList = document.querySelector("#contentList");
                 const listTitle = document.createElement("h2");
-                listTitle.id = obj.pubDate;
+                listTitle.setAttribute("id", obj.postID);
+                console.log(obj.postID);
+                console.log(listTitle.id);
                 listTitle.textContent = obj.title;
                 contentList.appendChild(listTitle);
                 const listPreface = document.createElement("h3");
@@ -118,12 +120,13 @@
                 listDate.textContent = "Published on " + obj.pubDate;
                 contentList.appendChild(listDate);
                 console.log("list populated");
-                const itemButton = document.querySelector("#" + obj.pubDate);
-                itemButton.addEventListener("click", openPost(obj.pubDate));
+                const itemButton = document.querySelector("#" + obj.postID);
+
+                itemButton.addEventListener("click", openPost(obj, obj.postID));
             }
 
-            function openPost(ID) {
-                console.log(ID);
+            function openPost(obj, ID) {
+                console.log("Opening post: " + obj.postID);
             }
 
             populate();
