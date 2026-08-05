@@ -44,14 +44,17 @@
                 
                 <!-- MAIN BLOCK / POST INFO -->
                 <main>
-                    <h1>Blogs</h1>
+                    <h1 id = "listHead">Blogs</h1>
 
-                    <article>
-                        <a href="catalog/summer2026.html">
+                    <article id = "contentList">
+                        <!-- <a href="catalog/summer2026.html">
                             <h2>Summer, 2026</h2>
                         </a>
                         <h3>A Fresh Start</h3>
-                        <p>Published on 6/21/2026</p>
+                        <p>Published on 6/21/2026</p> -->
+
+
+
                     </article>
                 </main>
 
@@ -85,5 +88,51 @@
                 </rightSidebar>
             </div>
         </div>
+
+        <script>
+            async function populate() {
+                console.log("fetching json");
+                const requestURL =
+                    "https://raw.githubusercontent.com/hardmoneypicasso/PGWcatalog/e15471ddc9d1affde04598fdc44cef012a1852cf/Blogs/summer2026.json";
+                const request = new Request(requestURL);
+
+                const response = await fetch(request);
+                console.log(response.ok);
+                const summer2026 = await response.json();
+
+                console.log("json fetchedS");
+                populateList(summer2026);
+            }
+
+            function populateList(obj) {
+                console.log("list populating");
+                const contentList = document.querySelector("#contentList");
+                const listTitle = document.createElement("h2");
+                listTitle.setAttribute("id", obj.postID);
+                console.log(obj.postID);
+                console.log(listTitle.id);
+                listTitle.textContent = obj.title;
+                contentList.appendChild(listTitle);
+                const listPreface = document.createElement("h3");
+                listPreface.textContent = obj.preface;
+                contentList.appendChild(listPreface);
+                const listDate = document.createElement("p");
+                listDate.textContent = "Published on " + obj.pubDate;
+                contentList.appendChild(listDate);
+                console.log("list populated");
+                const itemButton = document.querySelector("#" + obj.postID);
+
+                itemButton.addEventListener("click", openPost(obj, obj.postID));
+            }
+
+            function openPost(obj, ID) {
+                console.log("Opening post: " + obj.postID);
+            }
+
+            populate();
+
+        </script>
+
+
   </body>
 </html>
