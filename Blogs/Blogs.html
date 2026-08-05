@@ -44,16 +44,9 @@
                 
                 <!-- MAIN BLOCK / POST INFO -->
                 <main>
-                    <h1 id = "listHead">Blogs</h1>
+                    <article id = "mainList">
 
-                    <article id = "contentList">
-                        <!-- <a href="catalog/summer2026.html">
-                            <h2>Summer, 2026</h2>
-                        </a>
-                        <h3>A Fresh Start</h3>
-                        <p>Published on 6/21/2026</p> -->
-
-
+                        <h1 id = "listHead" class = "listView">Blogs</h1>
 
                     </article>
                 </main>
@@ -91,42 +84,96 @@
 
         <script>
             async function populate() {
-                console.log("fetching json");
+                console.log("fetching catalog");
                 const requestURL =
-                    "https://raw.githubusercontent.com/hardmoneypicasso/PGWcatalog/e15471ddc9d1affde04598fdc44cef012a1852cf/Blogs/summer2026.json";
+                    "https://raw.githubusercontent.com/hardmoneypicasso/PGWcatalog/refs/heads/main/Blogs/summer2026.json";
                 const request = new Request(requestURL);
 
                 const response = await fetch(request);
                 console.log(response.ok);
                 const summer2026 = await response.json();
 
-                console.log("json fetchedS");
+                console.log("catalog fetched");
                 populateList(summer2026);
             }
 
             function populateList(obj) {
                 console.log("list populating");
-                const contentList = document.querySelector("#contentList");
+
+                const mainList = document.querySelector("#mainList");
+                
+                const listItem = document.createElement("div");
+                listItem.setAttribute("id", obj.postID);
+                console.log("postID: " + listItem.id);
+
                 const listTitle = document.createElement("h2");
-                listTitle.setAttribute("id", obj.postID);
-                console.log(obj.postID);
-                console.log(listTitle.id);
                 listTitle.textContent = obj.title;
-                contentList.appendChild(listTitle);
+                listItem.appendChild(listTitle);
+                
                 const listPreface = document.createElement("h3");
                 listPreface.textContent = obj.preface;
-                contentList.appendChild(listPreface);
+                listItem.appendChild(listPreface);
+
                 const listDate = document.createElement("p");
                 listDate.textContent = "Published on " + obj.pubDate;
-                contentList.appendChild(listDate);
+                listItem.appendChild(listDate);
+
+                mainList.appendChild(listItem);
+
                 console.log("list populated");
+
                 const itemButton = document.querySelector("#" + obj.postID);
 
-                itemButton.addEventListener("click", openPost(obj, obj.postID));
+                itemButton.addEventListener("click", (e) => openPost(obj, obj.postID));
             }
 
             function openPost(obj, ID) {
+                console.log(obj.postID + " clicked!");
+                
                 console.log("Opening post: " + obj.postID);
+
+                //remove the loaded list of all posts from #contentList
+                const contentList = document.querySelector("#mainList");
+                contentList.remove();
+
+                // load the selected post in the proper format
+                const main = document.querySelector("main");
+                const mainContent = document.createElement("article");
+                main.appendChild(mainContent);
+                mainContent.setAttribute("id", "mainContent");
+
+                
+                const postTitle = document.createElement("h1");
+                postTitle.textContent = obj.title;
+                mainContent.appendChild(postTitle);
+
+                const postPreface = document.createElement("h2");
+                postPreface.textContent = obj.preface;
+                mainContent.appendChild(postPreface);
+
+                //iterates to create new paragraphs for each section of the post
+                const postContent = obj.content;
+                postContent.forEach((paragraph) => {
+                    const p = document.createElement("p");
+                    p.textContent = paragraph;
+                    mainContent.appendChild(p);
+                    console.log("Paragraph added: " + p.textContent);
+                });
+                
+                console.log("Post opened: " + ID);
+            }
+
+            function closePost(obj){
+                console.log("Closing post: " + obj.postID);
+
+                //remove the loaded post
+                const mainContent = document.querySelector("#mainContent");
+                mainContent.remove();
+
+                //reload the list of all posts
+                populateList(obj);
+
+                console.log("Post closed: " + obj.postID);
             }
 
             populate();
