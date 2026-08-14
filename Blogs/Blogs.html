@@ -3,6 +3,7 @@
   <head>
     <!-- style sheet -->
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobileStyle.css">
 
     <!-- meta data -->
     <meta charset = "UTF-8">
@@ -40,16 +41,21 @@
 
                     <img src="../media/poemclover.png" width=140 height=140 style="transform: translateX(-10px)">
 
-                </leftSidebar>
+                </leftSidebar> 
                 
                 <!-- MAIN BLOCK / POST INFO -->
-                <main style="position: relative;">
-                    <div id="locationBar" class = "blogs" style="position: absolute; top: 0; left: 0;">
-                        <p id="locationText" class="locationHome" style="padding-top: 0%; margin-top:0%">home</p>
-                    </div>
+                <main>
+                    <!-- BREADCRUMB LIST -->
+                    <nav id="breadcrumbList" class="breadcrumb">
+                        <ol>
+                            <li id = "home">Home</li>
+                            <li id = "blogs">Blogs</li>
+                        </ol>
+                    </nav>
+
                     <article id = "mainList">
 
-                        <h1 id = "listHead" class = "listView">Blogs</h1>
+                        <h1 id = "title" class = "listView">Blogs</h1>
 
                     </article>
                 </main>
@@ -86,20 +92,33 @@
         </div>
 
         <script>
+
+            const homeButton = document.querySelector("#home");
+            homeButton.addEventListener("click", (e) => breadcrumbNav("home"));
+
+            const blogsButton = document.querySelector("#blogs");
+            blogsButton.addEventListener("click", (e) => breadcrumbNav("blogs"));
+
+            function breadcrumbNav(destination) {
+                // UNDER CONS --- ATTEMPTS TO UPDATE STATE FOR EASE OF NAVIGATION, BUT DOESN'T WORK YET
+
+                // MAIN FUNCTION --- NAVIGATES TO THE SELECTED BREADCRUMB DESTINATION
+
+                console.log("Navigating to: " + destination);
+
+                if (destination === "home") {
+                    window.location.href = "../home.html";
+                } else if (destination === "blogs") {
+                    window.location.href = "Blogs.html";
+                } else {
+                    console.log("Invalid breadcrumb destination: " + destination);
+                }
+
+            }
+
+            // LIST FUNCTIONS
             async function populate() {
                 // UNDER CONS --- ATTEMPTS TO UPDATE STATE FOR EASE OF NAVIGATION, BUT DOESN'T WORK YET
-                const locationBar = document.querySelector("#locationBar");
-                const locationText = document.querySelector("#locationText");
-                    locationText.style.float = "left";
-                    locationText.className = null;
-
-                const locationAdd = document.createElement("p");
-                locationAdd.textContent = " > blogs";
-                locationAdd.className = "locationText";
-                locationBar.appendChild(locationAdd);
-
-                // locationBar.textContent = "home > blogs";
-    
                 
                 // MAIN FUNCTION --- FETCHES JSON LIST OF BLOGS AND POPULATES THE PAGE WITH IT
                 const state = "blogs";
@@ -121,21 +140,6 @@
 
             function populateList(obj) {
                 // UNDER CONS --- ATTEMPTS TO UPDATE STATE FOR EASE OF NAVIGATION, BUT DOESN'T WORK YET
-                const state = "blogs-list";
-                const url = "blogs-list";
-                history.pushState(state, "", url);
-
-                // const locationBar = document.querySelector("#locationText");
-                // locationBar.textContent = "home > blogs > list";
-                const locationBar = document.querySelector("#locationBar");
-                const locationText = document.querySelector("#locationText");
-                locationText.style.float = "left";
-                locationText.className = null;
-
-                const locationAdd = document.createElement("p");
-                locationAdd.textContent = " > list";
-                locationAdd.className = "locationText";
-                locationBar.appendChild(locationAdd);
 
                 // MAIN FUNCTION --- CREATES LIST AND ADDS EVENT LISTENER TO OPEN POST
 
@@ -169,17 +173,6 @@
             }
 
             function openPost(obj, ID) {
-                const state = "blogs-post";
-                const url = "blogs-list/" + obj.postID;
-                history.pushState(state, "", url);
-
-                // const locationBar = document.querySelector("#locationText");
-                // locationBar.textContent = "home > blogs > " + obj.title;
-                const locationBar = document.querySelector("#locationBar");
-                const locationText = document.querySelector("#locationText");
-                
-                locationText.textContent = " > " + obj.title;
-
                 // MAIN FUNCTION --- REMOVES LIST AND ADDS POST CONTENT TO MAIN BLOCK
 
                 console.log(obj.postID + " clicked!");
@@ -218,25 +211,7 @@
 
 
                 // ADDING POPSTATE LISTENER, NOT DONE YET
-                document.addEventListener("popstate", (event) => {
-                    closePost(obj);
-                });
-            }
 
-            function closePost(obj){
-
-
-                // MAIN FUNCTION --- REMOVES POST AND RELOADS LIST OF ALL POSTS
-                console.log("Closing post: " + obj.postID);
-
-                //remove the loaded post
-                const mainContent = document.querySelector("#mainContent");
-                mainContent.remove();
-
-                //reload the list of all posts
-                populateList(obj);
-
-                console.log("Post closed: " + obj.postID);
             }
 
             // INSTANTIATES THE PAGE BY FETCHING JSON LIST

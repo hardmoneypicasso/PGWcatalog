@@ -68,6 +68,32 @@
                 display: flex;
             }
 
+            /* BREADCRUMB LIST */
+            .breadcrumb {
+                padding: 0%;
+                margin: 0%;
+                margin-top: 0%;
+                padding-top: 0%;
+            }
+
+            .breadcrumb ol {
+                display: flex;
+                flex-wrap: wrap;
+                list-style: none;
+                margin: 0%;
+                padding: 0%;
+                margin-top: 0%;
+                align-items: start;
+            }
+
+            .breadcrumb li:not(:last-child)::after {
+                display: inline-block;
+                margin: 0%;
+                padding:0%;
+                content: "\00a0 > \00a0";
+            }
+
+
             /* LEFT SIDE BAR STYLING AND SIZING */
             leftSidebar {
                 background-color: #b19ed3ef;
@@ -85,7 +111,7 @@
                 font-size: smaller;
             }
 
-            /* MAIN CONTENT STYLING */
+            /* MAIN BLOCK STYLING */
             main {
                 background-color: rgb(250 212 192 / 95%);
                 flex: 1;
@@ -93,6 +119,36 @@
                 order: 2;
             }
 
+            /* BLOG CONTENT */
+            #mainContent * {
+                margin: 0%;
+                padding: 0%;
+            }
+
+            #mainContent h1{
+                margin-bottom:20px;
+            }
+
+            #mainContent h2{
+                font-style: italic;
+            }
+
+            /* BLOG LIST */
+            #mainList * {
+                margin: 0%;
+                padding: 0%;
+            }
+
+            #mainList div {
+                margin-top: 20px;
+                padding-top: 0px;
+            }
+
+            #mainList h2{
+                font-style: italic;
+            }
+
+            /* LOGS */
             #logsHome {
                 background-color: #b19ed3ef;
             }
