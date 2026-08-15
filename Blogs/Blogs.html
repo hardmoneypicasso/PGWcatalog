@@ -21,6 +21,19 @@
                         <img src="../media/headerlogo-1.png" height=150>
                     </a>
                 </div>
+
+                <nav id="mobNav">
+                        <div id="navMenuButton" class="menuClosed" >
+                            <h1>
+                                <img src="media/starSprite.png" height=70 style= "padding-top: -5px; padding-bottom: 5px; transform:translateY(30px);">
+                                navigation
+                                <img src="media/starSprite.png" height=70 style= "padding-top: -5px; padding-bottom: 5px; transform:translateY(30px)">
+                            </h1>
+                        </div>
+                        <ul id="navMenu">
+
+                        </ul>
+                </nav>
             </div>
             
 
@@ -28,18 +41,26 @@
                 <!-- LEFT SIDE BAR / NAVIGATION PANE -->
                 <leftSidebar id="leftSidebar" style="margin-right: 10px;">
                     
-                     <!-- nav menu! -->
-                    <a href="../Poems/Poetry.html">
-                        <img src="../media/poemclover.png" width=140 height=140 style="transform: translateX(-10px)">
+                    <!-- nav menu! -->
+                    <a href="underConstruction.html">
+                        <img src="../media/poems-underconstruction.png" width=140 height=140 style="transform: translateX(-10px)">
                     </a>
 
-                    <a href="Blogs.html">
+                    <a href="../Blogs/Blogs.html">
                         <img src="../media/cloverBlogs.png" width=140 height=140 style="transform: translateX(-20px)">
                     </a>
+                    
+                    <a href="underConstruction.html">
+                        <img src="../media/prose-underconstruction.png" width=140 height=140 style="transform: translateX(-20px)">
+                    </a>
 
-                    <img src="../media/poemclover.png" width=140 height=140 style="transform: translateX(-10px)">
+                    <a href="underConstruction.html">
+                        <img src="../media/pics-underconstruction.png" width=140 height=140 style="transform: translateX(-20px)">
+                    </a>
 
-                    <img src="../media/poemclover.png" width=140 height=140 style="transform: translateX(-10px)">
+                    <a href="underConstruction.html">
+                        <img src="../media/logs-underconstruction.png" width=140 height=140 style="transform: translateX(-20px)">
+                    </a>
 
                 </leftSidebar> 
                 
@@ -93,6 +114,57 @@
 
         <script>
 
+            // --------------------- MOBILE NAVIGATION ---------------------
+            const menuBtn= document.querySelector("#navMenuButton");
+            const navArea= document.querySelector("#mobNav");
+            // const poemsItem= document.querySelector("#poemsNavBar");
+            const navList= document.querySelector("#navMenu");
+            const navItems= ["poems","prose","pics","blogs","logs"];
+
+            menuBtn.addEventListener("click", navOpen);
+            
+            function navOpen() {
+                if (menuBtn.className == 'menuClosed'){
+
+                    for (let i = 0; i<5; i++){
+                        const item = document.createElement("li");
+                        const anchor = document.createElement("a");
+                        
+                        if(navItems[i]=='logs'){
+                            anchor.href = "logs.html"
+                        }else{
+                            anchor.href = "underConstruction.html";
+                        }
+                        
+                        const imageL = document.createElement("img");
+                        imageL.src = "media/cloverbase1.png";
+                        imageL.height = 40;
+                        imageL.style = "transform: translateY(10px)";
+                        const imageR = document.createElement("img");
+                        imageR.src = "media/cloverbase1.png";
+                        imageR.height = 40;
+                        imageR.style = "transform: translateY(10px)";
+
+                        item.textContent=navItems[i];
+                        item.prepend(imageL);
+                        item.appendChild(imageR);
+                        anchor.appendChild(item);
+                        navList.appendChild(anchor);
+                    }
+
+                    menuBtn.className = 'menuOpened';
+                }else {
+                    for (let i = 0; i<5; i++){
+                        navList.removeChild(navList.lastChild);
+                    }
+                    menuBtn.className = 'menuClosed';
+                }
+            }
+
+            // --------------------- MOBILE NAVIGATION ---------------------
+
+
+            // --------------------- BREADCRUMB NAVIGATION ---------------------
             const homeButton = document.querySelector("#home");
             homeButton.addEventListener("click", (e) => breadcrumbNav("home"));
 
@@ -115,8 +187,10 @@
                 }
 
             }
+            // --------------------- END BREADCRUMB NAVIGATION ---------------------
 
-            // LIST FUNCTIONS
+
+            // --------------------- LIST FUNCTIONS ---------------------
             async function populate() {
                 // UNDER CONS --- ATTEMPTS TO UPDATE STATE FOR EASE OF NAVIGATION, BUT DOESN'T WORK YET
                 
@@ -213,6 +287,8 @@
                 // ADDING POPSTATE LISTENER, NOT DONE YET
 
             }
+
+            // --------------------- END LIST FUNCTIONS ---------------------
 
             // INSTANTIATES THE PAGE BY FETCHING JSON LIST
             populate();
