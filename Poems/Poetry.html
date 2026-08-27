@@ -88,15 +88,184 @@
     </body>
 
     <script>
-        let itemsVis= 1;
+        // --------------------- MOBILE NAVIGATION ---------------------
+            const menuBtn= document.querySelector("#navMenuButton");
+            const navArea= document.querySelector("#mobNav");
+            // const poemsItem= document.querySelector("#poemsNavBar");
+            const navList= document.querySelector("#navMenu");
+            const navItems= ["poems","prose","pics","blogs","logs"];
 
-        const listBox= document.querySelector(".list");
+            menuBtn.addEventListener("click", navOpen);
+            
+            function navOpen() {
+                if (menuBtn.className == 'menuClosed'){
 
-        function testOne() {
+                    for (let i = 0; i<5; i++){
+                        const item = document.createElement("li");
+                        const anchor = document.createElement("a");
+                        
+                        if(navItems[i]=='logs'){
+                            anchor.href = "logs.html"
+                        }else{
+                            anchor.href = "underConstruction.html";
+                        }
+                        
+                        const imageL = document.createElement("img");
+                        imageL.src = "media/cloverbase1.png";
+                        imageL.height = 40;
+                        imageL.style = "transform: translateY(10px)";
+                        const imageR = document.createElement("img");
+                        imageR.src = "media/cloverbase1.png";
+                        imageR.height = 40;
+                        imageR.style = "transform: translateY(10px)";
 
-            console.log("I am a test");
+                        item.textContent=navItems[i];
+                        item.prepend(imageL);
+                        item.appendChild(imageR);
+                        anchor.appendChild(item);
+                        navList.appendChild(anchor);
+                    }
 
-        }
+                    menuBtn.className = 'menuOpened';
+                }else {
+                    for (let i = 0; i<5; i++){
+                        navList.removeChild(navList.lastChild);
+                    }
+                    menuBtn.className = 'menuClosed';
+                }
+            }
+
+            // --------------------- MOBILE NAVIGATION ---------------------
+
+
+            // --------------------- BREADCRUMB NAVIGATION ---------------------
+            const homeButton = document.querySelector("#home");
+            homeButton.addEventListener("click", (e) => breadcrumbNav("home"));
+
+            const blogsButton = document.querySelector("#blogs");
+            blogsButton.addEventListener("click", (e) => breadcrumbNav("blogs"));
+
+            function breadcrumbNav(destination) {
+                // UNDER CONS --- ATTEMPTS TO UPDATE STATE FOR EASE OF NAVIGATION, BUT DOESN'T WORK YET
+
+                // MAIN FUNCTION --- NAVIGATES TO THE SELECTED BREADCRUMB DESTINATION
+
+                console.log("Navigating to: " + destination);
+
+                if (destination === "home") {
+                    window.location.href = "../home.html";
+                } else if (destination === "blogs") {
+                    window.location.href = "Blogs.html";
+                } else {
+                    console.log("Invalid breadcrumb destination: " + destination);
+                }
+
+            }
+            // --------------------- END BREADCRUMB NAVIGATION ---------------------
+
+
+            // --------------------- LIST FUNCTIONS ---------------------
+            async function populate() {
+                // UNDER CONS --- ATTEMPTS TO UPDATE STATE FOR EASE OF NAVIGATION, BUT DOESN'T WORK YET
+                
+                // MAIN FUNCTION --- FETCHES JSON LIST OF BLOGS AND POPULATES THE PAGE WITH IT
+                const state = "blogs";
+                const url = "blogs";
+                history.pushState(state, "", url);
+                
+                console.log("fetching catalog");
+                const requestURL =
+                    "https://raw.githubusercontent.com/hardmoneypicasso/PGWcatalog/refs/heads/main/Blogs/summer2026.json";
+                const request = new Request(requestURL);
+
+                const response = await fetch(request);
+                console.log(response.ok);
+                const summer2026 = await response.json();
+
+                console.log("catalog fetched");
+                populateList(summer2026);
+            }
+
+            function populateList(obj) {
+                // UNDER CONS --- ATTEMPTS TO UPDATE STATE FOR EASE OF NAVIGATION, BUT DOESN'T WORK YET
+
+                // MAIN FUNCTION --- CREATES LIST AND ADDS EVENT LISTENER TO OPEN POST
+
+                console.log("list populating");
+
+                const mainList = document.querySelector("#mainList");
+                
+                const listItem = document.createElement("div");
+                listItem.setAttribute("id", obj.postID);
+                console.log("postID: " + listItem.id);
+
+                const listTitle = document.createElement("h2");
+                listTitle.textContent = obj.title;
+                listItem.appendChild(listTitle);
+                
+                const listPreface = document.createElement("h3");
+                listPreface.textContent = obj.preface;
+                listItem.appendChild(listPreface);
+
+                const listDate = document.createElement("p");
+                listDate.textContent = "Published on " + obj.pubDate;
+                listItem.appendChild(listDate);
+
+                mainList.appendChild(listItem);
+
+                console.log("list populated");
+
+                const itemButton = document.querySelector("#" + obj.postID);
+
+                itemButton.addEventListener("click", (e) => openPost(obj, obj.postID));
+            }
+
+            function openPost(obj, ID) {
+                // MAIN FUNCTION --- REMOVES LIST AND ADDS POST CONTENT TO MAIN BLOCK
+
+                console.log(obj.postID + " clicked!");
+                
+                console.log("Opening post: " + obj.postID);
+
+                //remove the loaded list of all posts from #contentList
+                const contentList = document.querySelector("#mainList");
+                contentList.remove();
+
+                // load the selected post in the proper format
+                const main = document.querySelector("main");
+                const mainContent = document.createElement("article");
+                main.appendChild(mainContent);
+                mainContent.setAttribute("id", "mainContent");
+
+                
+                const postTitle = document.createElement("h1");
+                postTitle.textContent = obj.title;
+                mainContent.appendChild(postTitle);
+
+                const postPreface = document.createElement("h2");
+                postPreface.textContent = obj.preface;
+                mainContent.appendChild(postPreface);
+
+                //iterates to create new paragraphs for each section of the post
+                const postContent = obj.content;
+                postContent.forEach((paragraph) => {
+                    const p = document.createElement("p");
+                    p.textContent = paragraph;
+                    mainContent.appendChild(p);
+                    console.log("Paragraph added: " + p.textContent);
+                });
+                
+                console.log("Post opened: " + ID);
+
+
+                // ADDING POPSTATE LISTENER, NOT DONE YET
+
+            }
+
+            // --------------------- END LIST FUNCTIONS ---------------------
+
+            // INSTANTIATES THE PAGE BY FETCHING JSON LIST
+            populate();
 
 
     </script>
