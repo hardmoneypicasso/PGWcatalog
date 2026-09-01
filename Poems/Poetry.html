@@ -194,21 +194,21 @@
                 // UNDER CONS --- ATTEMPTS TO UPDATE STATE FOR EASE OF NAVIGATION, BUT DOESN'T WORK YET
                 
                 // MAIN FUNCTION --- FETCHES JSON LIST OF BLOGS AND POPULATES THE PAGE WITH IT
-                const state = "blogs";
-                const url = "blogs";
+                const state = "poems";
+                const url = "poems";
                 history.pushState(state, "", url);
                 
                 console.log("fetching catalog");
                 const requestURL =
-                    "https://raw.githubusercontent.com/hardmoneypicasso/PGWcatalog/refs/heads/main/Blogs/summer2026.json";
+                    "https://raw.githubusercontent.com/hardmoneypicasso/PGWcatalog/refs/heads/main/Poems/poemsCatalog.json";
                 const request = new Request(requestURL);
 
                 const response = await fetch(request);
                 console.log(response.ok);
-                const summer2026 = await response.json();
+                const poemsCatalog = await response.json();
 
                 console.log("catalog fetched");
-                populateList(summer2026);
+                populateList(poemsCatalog);
             }
 
             function populateList(obj) {
@@ -219,9 +219,19 @@
                 console.log("list populating");
 
                 const mainList = document.querySelector("#mainList");
+
+                // new code for poems 
+                const listContent = obj.posts;
+                listContent.forEach((post) => {
+                    console.log("Creating list item for: " + post.title);
+                    createListItem(post, mainList);
+                });
+            }
+
+            function createListItem(post, mainList){
                 
                 const listItem = document.createElement("div");
-                listItem.setAttribute("id", obj.postID);
+                listItem.setAttribute("id", post.postID);
                 console.log("postID: " + listItem.id);
 
                 const listTitle = document.createElement("h2");
@@ -237,12 +247,8 @@
                 listItem.appendChild(listDate);
 
                 mainList.appendChild(listItem);
-
-                console.log("list populated");
-
-                const itemButton = document.querySelector("#" + obj.postID);
-
-                itemButton.addEventListener("click", (e) => openPost(obj, obj.postID));
+                
+                console.log(post.title + " list item created");
             }
 
             function openPost(obj, ID) {
