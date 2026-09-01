@@ -1,6 +1,7 @@
 {
 "posts":[{
 
+"postID": "poem1",
 "title": "Haircuts",
 "pubDate": "Thu, 16 Apr 2026 18:28:25 +0000",
 "author": "Peter White",
@@ -20,6 +21,7 @@
 },
 {
 
+"postID": "poem2",
 "title": "THE MAW THAT KNOWS NOT",
 "pubDate": "Thu, 16 Apr 2026 18:31:01 +0000",
 "author": "Peter White",
