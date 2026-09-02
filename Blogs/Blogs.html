@@ -274,11 +274,34 @@
 
                 //iterates to create new paragraphs for each section of the post
                 const postContent = obj.content;
+                let subHead = false;
                 postContent.forEach((paragraph) => {
-                    const p = document.createElement("p");
-                    p.textContent = paragraph;
-                    mainContent.appendChild(p);
-                    console.log("Paragraph added: " + p.textContent);
+                    console.log("subhead is " + subHead);
+                    
+                    if (subHead == true) {
+                        const h2 = document.createElement("h2");
+                        h2.textContent = paragraph;
+                        mainContent.appendChild(h2);
+
+                        subHead = false;
+                        console.log("subhead is now " + subHead);
+                    } else if (paragraph === " ") {
+                        const br = document.createElement("br");
+                        mainContent.appendChild(br);
+                    } else if (paragraph === "HEADER"){
+                        const br = document.createElement("br");
+                        mainContent.appendChild(br);
+                        
+                        subHead = true;
+                        console.log("subhead is now " + subHead);
+                    } else if (paragraph === "CLOSEHEADER"){
+                        const br = document.createElement("br");
+                        mainContent.appendChild(br); 
+                    } else {
+                        const p = document.createElement("p");
+                        p.textContent = paragraph;
+                        mainContent.appendChild(p);
+                    }
                 });
                 
                 console.log("Post opened: " + ID);

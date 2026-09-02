@@ -1,7 +1,3285 @@
 {
 "posts":[{
+"postID":"poem1",
+"title": "Destiny.",
+"pubDate": "Sun, 24 Apr 2022 16:49:00 +0000",
+"author": "Peter White",
+"content": [
+"The sun falls from its thrown",
+"And we’ll have to head home",
+" ",
+"But I know you’re wrong,",
+"About destiny.",
+" ",
+"All stars have their path,",
+"And clouds block them too.",
+" ",
+"You go your own way,",
+"And I’ll turn my back.",
+" ",
+"The tides rise in vain,",
+"As the beach still endures.",
+" ",
+"Our shackles are strong,",
+"And the road will be steep.",
+" ",
+"But I hope you’re wrong, ",
+"About destiny."],
+"postStatus": "publish"
+}
 
-"postID": "poem1",
+,{
+"postID":"poem2",
+"title": "In Search of the Answer.",
+"pubDate": "Sun, 24 Apr 2022 16:59:00 +0000",
+"author": "Peter White",
+"content": [
+"Like the moon seen in the morning.",
+"Like love found without knowing.",
+"It appears without warning.",
+" ",
+"Behind the celestial dome, maturing.",
+"Or under the surface, obscuring.",
+"Now, and always alluring.",
+" ",
+"I will check under the streetlights, strolling.",
+"You can search in our minds, dreaming.",
+"Still for now, just waiting."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem3",
+"title": "In the End",
+"pubDate": "Tue, 30 Nov 2021 18:06:00 +0000",
+"author": "Peter White",
+"content": [
+"Steps will follow steps, each in their turn;",
+"The world moves and changes shade.",
+" ",
+"Slow to fast and light to dark,",
+"All things arriving at the urn.",
+" ",
+"Bathe in the beauty today,",
+"The maple and the lark.",
+" ",
+"For when spring turns to summer,",
+"And June follows the flowers in May,",
+" ",
+"The snow will follow too, never delayed;",
+"Then the cycle slows, things different than they were."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem4",
+"title": "Or In the Wildflowers.",
+"pubDate": "Tue, 30 Nov 2021 18:14:00 +0000",
+"author": "Peter White",
+"content": [
+"Through a meadow, in the mountains,",
+"On the train, plane, or nowhere at all!",
+"Anywhere at all, anytime, and any-why.",
+"It will always happen; cannot be stopped.",
+" ",
+"It’s okay to smile, shout, cry, and dance.",
+"The food fight builds courage.",
+"The skinny dip finds a youthful heart.",
+" ",
+"Pay no mind at all, to who said different.",
+"They cannot, or do not, see",
+" ",
+"The forest through the trees."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem5",
+"title": "Not Supposed to be Free.",
+"pubDate": "Tue, 18 Oct 2022 15:56:53 +0000",
+"author": "Peter White",
+"content": [
+"I guess we're not supposed to be free",
+"if all those who love, will someday be grieved.",
+"All in shackles pass too, though with much less adieu,",
+"but I guess we're not supposed to be free.",
+" ",
+"Consider the wren, but more, consider his plight.",
+"Think of the train, who does just what is right.",
+"Now turn to within where choice breeds despair.",
+"What to eat? And where to go? Chop my hair,",
+"but who should care? It only gets deeper.",
+"The choice to leave, you say, \"What's the matter?\"",
+"They want to be free, but that <em>will</em> hurt you.",
+"so let go of your choice, be un-free too.",
+" ",
+"I guess we're not supposed to be free",
+"maybe love is a curse we no longer need.",
+"Your life isn't easy, so we can make it a breeze,",
+"cuz I guess we're not supposed to be free.",
+" ",
+"Move aside for the plan, and a good life.",
+"No more mistakes; at least none by your knife.",
+"Of course  this is right, there's no other way.",
+"Your pleas are not the law, that's why they won't stay.",
+"You're telling them now, \"It's bigger than you.\"",
+"And yes, you do mean it. Let's tame the shrew",
+"whose goal <em>must</em> be selfish. Think of the wren,",
+"safe in his cage, and still free to no end!",
+" ",
+"I guess we're not supposed to be free,",
+"for how can they know what sacrifice to make?",
+"No one knows best, and especially not you,",
+"but I guess we're not supposed to be free."],
+"postStatus": "publish"
+}
+
+
+,{
+"postID":"poem7",
+"title": "Antiques and Collectables.",
+"pubDate": "Tue, 01 Nov 2022 15:59:00 +0000",
+"author": "Peter White",
+"content": [
+"The old antique shop shut down,",
+"and I will love you forever.",
+" ",
+"That's just business, they say.",
+"If no one is buying, you",
+"aren't really selling. This town",
+"won't support you, so",
+"it's time to move on.",
+" ",
+"Where you stood is still empty,",
+"because I will love you forever.",
+" ",
+"Memories don't sell like they used to,",
+"so we let the dead things die.",
+"dust won't forget, so don't sweep",
+"and let it mourn. Your blinds are",
+"still drawn, so it's time to move on.",
+" ",
+"A Goodwill opened uptown,",
+"and it's new and it's different,",
+"but parts feel the same. There's no",
+"dust yet, and I found a nice dresser,",
+"and, actually, another one too.",
+"There's rows of benches and baths, but",
+"I can't find any dust yet. There's paintings,",
+"or prints? a desk, and fine china, but",
+"I can't find any dust yet. Shopping carts glide",
+"on polished linoleum, as I float by",
+"an empty lot on the way home.",
+"A new table in hand, I try",
+"to move on. It sits in the corner,",
+"but I still can't find any dust yet.",
+" ",
+"I don't go uptown anymore,",
+"so I can love you forever."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem8",
+"title": "Yellow Birch Succession.",
+"pubDate": "Wed, 02 Nov 2022 16:10:19 +0000",
+"author": "Peter White",
+"content": [
+"There is art in being here.",
+"Take unconditional breath",
+"and let the moss spread.",
+" ",
+"There is genius in this place.",
+"For thought will come, yet,",
+"somehow, it will ask for nothing."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem9",
+"title": "Shoelace Express.",
+"pubDate": "Fri, 04 Nov 2022 03:49:00 +0000",
+"author": "Peter White",
+"content": [
+"The street was black beneath",
+"my feet, which continued their walkin'.",
+" ",
+"The street turned black and",
+"my feet continued their walkin'.",
+" ",
+"My feet turned back, so",
+"I had to look up.",
+"To look up and see, a bird",
+"on the ground, just one",
+"star in the sky, and the",
+"dog's on the roof. On the",
+"roof, I look up. I look up to see,",
+" ",
+"There's a sky in the puddle",
+"and my feet staring back at me."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem10",
+"title": "There's a Bucket in That Tree.",
+"pubDate": "Fri, 04 Nov 2022 18:09:15 +0000",
+"author": "Peter White",
+"content": [
+"The summer ends in rain.",
+"Sweaters employed to shield",
+"this first of cold skies,",
+"who warns fairly of what's to come.",
+" ",
+"The fall passes by, under rain.",
+"After the sky turned cold,",
+"the sweet gum tried again",
+"to sow its seeds, into better times.",
+" ",
+"The spring comes, of course, with rain.",
+"the winter sky struggles to wake,",
+"while daffodils pierce a white veil.",
+"The rain falls, still, and turns",
+" ",
+"the wheel. One thousand years",
+"to bury the sweet gum's burr."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem11",
+"title": "On Peace.",
+"pubDate": "Mon, 07 Nov 2022 00:11:53 +0000",
+"author": "Peter White",
+"content": [
+"The pressure relieves &amp; subsides",
+"not just among",
+"the plants &amp; the trees,",
+"but wherever I am Free."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem12",
+"title": "A Moment Before the Next.",
+"pubDate": "Tue, 08 Nov 2022 01:30:06 +0000",
+"author": "Peter White",
+"content": [
+"Fleeting, fluttering for a ",
+"moment or two- or for them",
+"it was forever. By my",
+"count it was a summer",
+" ",
+"of days cut short and ",
+"thoughts unsaid. Even so",
+"it was a season of love-",
+"of longing for such a fleeting",
+" ",
+"fulfillment. A summer sun filled",
+"so briefly like the breath",
+"that holds petunias. Just for",
+"a moment; to them: forever."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem13",
+"title": "Mourning for Light",
+"pubDate": "",
+"author": "Peter White",
+"content": [
+"The wind bites down and clamps its maw,",
+
+"And in its wake the meadow calms.",
+
+"Black as souls that no love has known,",
+
+"The sky shows fauns that are not there,",
+
+"And I hear songs from winter birds.",
+" ",
+
+"Cold iron lays limp in my lantern,",
+
+"And freezes the world where it lays.",
+
+"One day, and it will have been soon,",
+
+"The sun will come, and I will mourn at",
+
+"greater intervals, pray to him in days between."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem14",
+"title": "The Jolly Roger",
+"pubDate": "Tue, 06 Feb 2024 15:24:28 +0000",
+"author": "Peter White",
+"content": [
+"The sheets are filled with the wind that",
+"carries your scented lotion",
+"and on the hill recoils, cracks, and creaks",
+"against the waves which are",
+"what could go wrong.",
+" ",
+"Still this voyage drags along ",
+"the coast which nags, reminds me of home."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem15",
+"title": "The Lonesome",
+"pubDate": "Fri, 11 Nov 2022 02:08:30 +0000",
+"author": "Peter White",
+"content": [
+"A branch fell into the woods-",
+"and the woods would soon follow.",
+"Taking the thrush, the beetles,",
+"the berries the same, into the lonesome.",
+" ",
+"After the fall, the woods must",
+"celebrate. A feast from us, and for",
+"our long lonesome. The woods feast",
+"completely, and sacrifice fully.",
+" ",
+"We risk winter for the spring,",
+"and remember the fallen.",
+"The lonesome, though long, cannot be forever",
+"For the woods tend towards us, as long as we follow."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem16",
+"title": "A Warm Yellow Light.",
+"pubDate": "Fri, 11 Nov 2022 02:12:57 +0000",
+"author": "Peter White",
+"content": [
+"I want to paint my soul orange",
+"and fill my heart with the sun.",
+" ",
+"I want the Earth to thank me",
+"for the thanks I give it.",
+" ",
+"I want to feel the sun set",
+"and sleep with my mind quiet.",
+" ",
+"I need to become a warm",
+"yellow light. On a thunderstorm night.",
+"When the sun sets to early.",
+"and I need to become a warm yellow light."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem17",
+"title": "Native Hill (A Heron's Goodbye.)",
+"pubDate": "Fri, 11 Nov 2022 03:30:34 +0000",
+"author": "Peter White",
+"content": [
+"When the trillium begins to bloom",
+"and the streams cannot be ephemeral.",
+"Then she will wake in the mountains",
+"and drink from the maple.",
+" ",
+"Drink deeply, and follow the streams-",
+"quick, before the laurel can wilt.",
+"She'll dance in summer flowers",
+"while her feet become planted.",
+" ",
+"Strawberries ripen and the roots rise.",
+"The vine of the sweet pea caresses her calf,",
+"guiding her gently and into the valley.",
+"Still, vines will creep higher, and their leaves",
+" ",
+"will soon fall; lay in her colors as",
+"she turns to the sky.",
+"her hair will be feathered with",
+"the heron's goodbye-"],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem18",
+"title": "To-Do List",
+"pubDate": "Mon, 14 Nov 2022 02:02:16 +0000",
+"author": "Peter White",
+"content": [
+"There are one thousand things to do;",
+"and I'll start by laying here."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem19",
+"title": "How to Write a Poem",
+"pubDate": "Mon, 14 Nov 2022 02:03:40 +0000",
+"author": "Peter White",
+"content": [
+"On a saturday morning, nothing",
+"has to be perfect. The end",
+"of the week is for poetry.",
+"Time for one's self, no one else."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem20",
+"title": "The Red Oak",
+"pubDate": "Mon, 14 Nov 2022 02:08:25 +0000",
+"author": "Peter White",
+"content": [
+"Seasons are delayed between",
+"city buildings. The Red Oak waits",
+"to provide an encore seen by few.",
+"The Sycamore's leaves have ",
+"long since been taken, now",
+"the ground may be painted like",
+"a sunset. If she waits long enough",
+"the early snow may preserve her",
+"work. Things don't work like",
+"they used to, and the seasons find",
+"pause in the alley. Just peaking",
+"above my bedroom window,",
+"The Red Oak missed the signs",
+"from her friends, but hurried",
+"when she could, just a moment",
+"late, applauded for her untimely show."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem21",
+"title": "Revisiting.",
+"pubDate": "Fri, 16 Dec 2022 17:56:58 +0000",
+"author": "Peter White",
+"content": [
+"I ran my fingers through",
+"your hair and your memories.",
+"There was knot after knot",
+"like fresh fallen boulders.",
+"Content in their space,",
+"the comb simply had to give way.",
+" ",
+"At the end of this strand,",
+"my hand was released",
+"now heavy and dark, unwilling",
+"or unable to brush you again."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem22",
+"title": "To visit old Friends.",
+"pubDate": "Fri, 16 Dec 2022 18:00:55 +0000",
+"author": "Peter White",
+"content": [
+"To visit old friend,",
+"one has to call first.",
+" ",
+"To call old friends",
+"first, one must be accepting.",
+" ",
+"To grow bigger than one's past",
+"old friends must be forgiven.",
+" ",
+"But, \"old friends,\" one thinks,",
+"\"are old friends for a reason.\"",
+" ",
+"To visit old friends,",
+"one must wait for them to call first.",
+" ",
+"An old friend, if they were,",
+"must surely call on one's birthday.",
+" ",
+"and if they do not, for many years running,",
+"one must wait another.",
+" ",
+"for old friends were friends once,",
+"and once can't help remembering."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem23",
+"title": "The River's Always Flowing",
+"pubDate": "Fri, 16 Dec 2022 18:06:11 +0000",
+"author": "Peter White",
+"content": [
+"I live on the river's bank",
+"with the beaver and the bear.",
+" ",
+"The beaver dams a tributary",
+"and feels secure, though I am wary",
+" ",
+"It's all held back for the moment,",
+"but the pressure builds, until the torrent.",
+" ",
+"I go swimming when the weather's right",
+"like before the rains or a summer night.",
+" ",
+"I swim contented in the river's flow",
+"but tire quickly with no dam to slow it.",
+" ",
+"I lived by the river once",
+"like the beaver, but not the bear.",
+" ",
+"The bear, I witnessed, held his ground",
+"patiently waiting all seasons 'round.",
+" ",
+"He did not give way like me,",
+"or the beaver. He stood, so serenely,",
+"and I know he sees clearly."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem24",
+"title": "To find a Silent Step.",
+"pubDate": "Fri, 16 Dec 2022 18:22:54 +0000",
+"author": "Peter White",
+"content": [
+"I look to you in the days that drift, Dance, and die.",
+"In those times, I stop my wonder.",
+"I stop my wonder",
+"to find one silent step,",
+"but seldom succeed. I search,",
+"and find myself wandering,",
+"wondering: How would a shoelace think?",
+"Instead of will, they live by drift,",
+"always dancing life into ever flowing life.",
+"But really they step how I step",
+"and dance only when I tell them.",
+"And me? Well, I only dance on drifting days.",
+"On days when steps fall silent",
+"on  a welcoming soft ground.",
+"I only dance when you tell me.",
+"I only drift to stop the wonder.",
+"I only stop when I wonder,",
+"\"Where can I take one silent step?\"",
+"Before my eyes fall down."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem25",
+"title": "Cicada Concerto",
+"pubDate": "Fri, 16 Dec 2022 18:27:15 +0000",
+"author": "Peter White",
+"content": [
+"It becomes possible to think of going",
+"only after the weather changes.",
+"When the clouds come down",
+"from on high, and force all to bask",
+"in them. When rain wets your bones,",
+"Pleading, Begging you to go home.",
+"Even when the sun is out,",
+"just think of going.",
+"When the song birds wait while",
+"the cicadas sing, or the wind",
+"blows loud. Smell spring ground",
+"and listen to traffic. Only then",
+"can you think of going."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem26",
+"title": "Thank You",
+"pubDate": "Sat, 24 Dec 2022 00:03:59 +0000",
+"author": "Peter White",
+"content": [
+"I am a very boring and unpleasant",
+"man, stuck here, where I stand.",
+"My thoughts, they lay still,",
+"though I feel them rush over me.",
+"Like the landslides that steals the tree",
+"from his place in the valley.",
+" ",
+"'Thank you,' I whisper, and I promise",
+"I mean it. But I had an orange with lunch today",
+"and can think only that I should have shared it.",
+"It was delicious and vibrant, full and complete,",
+"just a few wedges too many.",
+"Though I could never figure out how",
+"to give them to you.",
+" ",
+"'Thank you,' I say, this time so it may be heard.",
+"Though I only wish I had meant it.",
+" ",
+"I feel I am a boring and unpleasant kind of man,",
+"though I know no other way of being.",
+"I ate an orange with lunch today,",
+"and the truth is I only thought now",
+"of sharing it."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem27",
+"title": "Puhpowee",
+"pubDate": "Sat, 31 Dec 2022 23:06:49 +0000",
+"author": "Peter White",
+"content": [
+"Thoughts I can't think are wrought",
+"by word I don't mean.",
+"Rocks who lay covered by beds",
+"stir motion in their bay,",
+"and ships pass in an eternal",
+"night, as the lips of two",
+"lovers cursed to fight",
+"lives in long parted places.",
+"Only a fool would fight currents, but I think I could."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem28",
+"title": "A Lumberjack",
+"pubDate": "Tue, 17 Jan 2023 16:40:12 +0000",
+"author": "Peter White",
+"content": [
+"One day the executioner will shed his cloak",
+"and reveal that he",
+"is me.",
+" ",
+"On that day, I will smile,",
+"and he should smile back.",
+" ",
+"As he swings his ax,",
+"and we both know he must,",
+"I will be a chestnut tree.",
+" ",
+"With each blow",
+"I will recount the years. And",
+"through the years,",
+"in every moment, ",
+"between every swing,",
+"I will see the same hooded figure.",
+"Not guiding me, not hiding",
+"only waiting.",
+" ",
+"As the tree falls,",
+"and the final blow lands,",
+"our smiles become cemented.",
+" ",
+"A chestnut falls, and none should weep.",
+"A chestnut falls, and its smile lives on.",
+"100 years and the chestnut rises again,",
+"waiting, again,",
+"for the executioner to lift his hood."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem29",
+"title": "Transcendence",
+"pubDate": "Tue, 17 Jan 2023 16:45:03 +0000",
+"author": "Peter White",
+"content": [
+"The sky glowed inside me,",
+"and finally I felt it.",
+"Of course I love you!",
+" ",
+"Finally I felt it.",
+"Finally, warm enough.",
+"Enough to tell you, 'I love you.'",
+" ",
+"And how could I not?",
+"The sky <em>glowed </em>inside me,",
+"I swear it.",
+"I could hear the sunset and",
+"feel the flock that flies South.",
+"And finally, I saw you feel the same things.",
+" ",
+"Of course I love you!",
+"It's nice to meet you, here.",
+"Yes, (that's right) I love you, too!"],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem30",
+"title": "Terrible Master (The End of the Tour)",
+"pubDate": "Sat, 21 Jan 2023 15:16:08 +0000",
+"author": "Peter White",
+"content": [
+"The mind makes promises",
+"But soon forgets;",
+"Between the incessant nature of our body,",
+"And the roar of the wind,",
+"And the hat that’s getting itchy,",
+"And our friend that",
+"Isn’t anymore,",
+"The buzz in our pocket,",
+"And the song that must be skipped,",
+"Or also the decision that now is the time",
+"To start heading home because maybe",
+"We didn’t make enough time for ourselves today.",
+" ",
+"The mind makes promises, ",
+"And tries so hard;",
+"Like lumber trying to see the forest;",
+"But is doomed to forget.",
+"Start, we must think,",
+"By removing the hat,",
+"Maybe throw it in with the laundry.",
+"Then, forgive the hands for being hands,",
+"And the mind for the thoughts we think.",
+"Spit out the blood.",
+"Or at least as much as we can think to.",
+"And please, we remind ourselves,",
+"Forgive the hands for the way they are.",
+" ",
+"The mind will keep making promises,",
+"Bless our heart,",
+"But please keep in mind,",
+"It is our nature to forget."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem31",
+"title": "Orange Juice",
+"pubDate": "Tue, 14 Feb 2023 16:12:10 +0000",
+"author": "Peter White",
+"content": [
+"Another sun rises and I try",
+"to make a plan. There's work",
+"to be done, so I start by",
+"drawing the curtains. The pinkish",
+"red blinds me for a second.",
+" ",
+"\"I have time,\"",
+"                       I think.",
+" ",
+"So I lay back in bed. Children",
+"want to be superheroes and adults",
+"have late nights (or is it early mornings?)",
+"when they try to remember why.",
+"Before an answer is found, life's ",
+"duties get in the way.",
+" ",
+"\"I have to get groceries,\"",
+"                                         I think.",
+" ",
+"So I grab a new note and survey",
+"my kingdom. No milk, no eggs.",
+"I should have salad more than--",
+"Okay, I should get a salad.",
+"Another few minutes passed by",
+"my head in the open fridge,",
+"and finally the note approximates",
+"what an adult should eat.",
+" ",
+"\"It's probably busy right now,\"",
+"                                               On a Thursday at 10.",
+" ",
+"I pick up a book, I think",
+"of the first time I read it,",
+"how inspired I felt to--",
+"my other hand commands",
+"my attention, and now its 11.",
+" ",
+"\"I have to get groceries,\"",
+"                                     A thumb still marks my page.",
+" ",
+"So I pull it away, and walk out",
+"the door. A dull grey sky is easier",
+"on the eyes, and I remember wanting",
+"to fly as a kid. Would make this walk",
+"a bit more bearable.",
+"In the aisles, I'm alone, but my music",
+"is a bit too loud, and I look around",
+"expecting to find someone I've bothered.",
+" ",
+"\"Eggs, check. Milk, check.\"",
+"                                     I say in my mind.",
+"\"Bread, cereal, frozen lasagna,\"",
+"       \"flour, sugar,\"",
+"                            I pass by the salads.",
+" ",
+"Kids have it easy. Chicken nuggets when",
+"you can't stomach asparagus. Mothers",
+"to kiss you better-- salad as an ultimatum!",
+"There's something I'm forgetting...",
+" ",
+"\"Yogurt,\"",
+"                I skip the song that's just too long."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem32",
+"title": "June, Again",
+"pubDate": "Tue, 14 Feb 2023 16:16:39 +0000",
+"author": "Peter White",
+"content": [
+"You know where I'll be,",
+"and I hope to see you then.",
+" ",
+"For when the fig should fall,",
+"there is orchard begging me.",
+"And when I chase her call",
+"a serpent is all I see.",
+" ",
+"Tell me he's in your heart too,",
+"and I will listen to no end.",
+" ",
+"But, the space inside time as it passes",
+"harbors the truth that neither may share.",
+"Like a priest who pacifies masses,",
+"Our gods ought not be laid bare.",
+" ",
+"Let summer come, as it may,",
+"and only on the solstice know that it is June, again."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem33",
+"title": "The Dust in my Palms.",
+"pubDate": "Tue, 14 Feb 2023 16:19:12 +0000",
+"author": "Peter White",
+"content": [
+"And I carried that flame,",
+"until its heat became my own.",
+"And I don't visit that tomb,",
+"yet your ashes are still in my hand."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem34",
+"title": "The Sun Sets Last on the Old Oak Tree.",
+"pubDate": "Sat, 04 Mar 2023 19:47:00 +0000",
+"author": "Peter White",
+"content": [
+"      Oh, to steal the final light, from boughs on high, to join that sweetest Earth’s choir of angels. That final light, with warmth so kind, begs to all, \"Return! Return! Abandon your winter roosts! Follow now, to Northern Skies!\" And of course, I listen, for Spring’s warmth knows not a lie. Still, I ask, take me for no fool, only the wary may outlast those days that winter hides. Those days when the sun still sets early, and feeds on the young and old finding themselves enchanted by prospects of prosperity. Those days of cruel deception.",
+"      No, I speak now of a day’s long warmth, which promises itself tomorrow. I speak of the sun who ambles on through blue painted canvas. I speak of that sun with the strength to shine through the intrusion of clouds. I sing now, for I have arrived again to be the evening’s choir. True, though it is, that the days still must end; the nights are not quite as long. All those I sing to remember the cold, and so hold dearly to the light. Oh, the touch of that bronze glow, come now and hear us. Oh, the life that may continue to live, come now and see us. Take these notes that we sing—oh, that song that is sung to the angels themselves—take these notes and I hope, how sincerely I hope, you may join us in this final light."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem35",
+"title": "Specifically, For You.",
+"pubDate": "Sat, 04 Mar 2023 20:02:32 +0000",
+"author": "Peter White",
+"content": [
+"I.",
+"And we stood, together in the warm embrace of flame.",
+"In the morning, dew would set,",
+"mournful doves would coo;",
+"And in those dark blue woods,",
+"you would turn your back, and I would too.",
+" ",
+"II.",
+"Lost in small thoughts, between moments,",
+"smaller still, I look up and notice now.",
+"Your gait is not the same as before.",
+"The space continues to grow,",
+"the path bends into undergrowth",
+"and I get lost in small thoughts,",
+"between moments,",
+"smaller still.",
+" ",
+"III.",
+"Nothing is like it was before,",
+"nothing ever was. Today I search",
+"for us, but find blackened leaves,",
+"trodden on, through a worn path.",
+"I don't want to be fated.",
+" ",
+"I want to choose. I search the space",
+"between leaves, and remember the Spring.",
+"That is enough."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem36",
+"title": "Sonnet 1",
+"pubDate": "Sat, 04 Mar 2023 20:09:05 +0000",
+"author": "Peter White",
+"content": [
+"When songs are sung into eternity.",
+"When names are hewn beyond the touch of time.",
+"We write ourselves into antiquity,",
+"In rooms we lay, the moss will cloud our names.",
+"The skin retreats, and even bones abide.",
+"Till fungus feasts on all that I became.",
+"I weep no tears, and in the dirt confide.",
+"When joy is shared and moments may pass by.",
+"When life is lived, in spite of death's approach.",
+"The glass will break; branches bend to untie.",
+"Ours is now, while the end will still encroach.",
+"    Lord time, do your worst, and I will stay here.",
+"    Tomorrow fades premature, now is clear."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem37",
+"title": "Elegy for Dandelions",
+"pubDate": "Sat, 06 May 2023 17:01:50 +0000",
+"author": "Peter White",
+"content": [
+"For decades now, she has lain.",
+"Inside my shadow, beyond my gaze.",
+"Where once she danced, now nothing grows,",
+"but coral bells, and blades of grass.",
+" ",
+"Each Spring I try, with shows of blooms,",
+"to call her back, to fill my glade.",
+"Though blue birds fly and the moon does wane",
+"her star won't shine till I am gone, and born again.",
+" ",
+"Her yellow petals strewn about,",
+"in times when I dared grow taller.",
+"I still recall that wordless banter,",
+"and only now I strain to shout.",
+" ",
+"I shout and scream but leaves still grow.",
+"Wind still blows, and snow still falls.",
+"That cursed sun still burns brighter.",
+"I shout, I try, at least, but branches reach.",
+" ",
+"And with their reach my love is buried deeper.",
+"The meadows retreat, and mocking birds whimper.",
+"I dream of days decades ago.",
+"I dream of a life that once was simpler."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem38",
+"title": "What Came of Picking Flowers. (sonnet 2)",
+"pubDate": "Sat, 06 May 2023 17:07:47 +0000",
+"author": "Peter White",
+"content": [
+"I waited for Spring, and now wish that I hadn't.",
+"Had it still been the fall, this might not have happened.",
+"But snow did stop falling, and song birds formed choirs,",
+"and flowers did bloom, but why did I pick them!",
+"I love them so dearly",
+"in their vase by my bed.",
+"But all things decay,",
+"and soon will be dead.",
+"I waited for Spring, and her yellow petals",
+"make me wish that I hadn't."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem39",
+"title": "Untold.",
+"pubDate": "Sat, 06 May 2023 17:10:38 +0000",
+"author": "Peter White",
+"content": [
+"Ridges may tell no lie,",
+"nor the rain that befalls them,",
+"so artists try to do the same."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem40",
+"title": "I think I'm an Earth sign?",
+"pubDate": "Sat, 06 May 2023 17:17:39 +0000",
+"author": "Peter White",
+"content": ["<em>The Mind Travels to Odd Places When You Don't Think of Letting it. / Now &amp; Therefore Forever.</em>",
+"There can't be a number",
+"to describe how I live.",
+"Not how many times I have loved, or will love.",
+"Nor how many days that I will see.",
+" ",
+"The market decides,",
+"and the data tells all,",
+"but it can't tell me.",
+" ",
+"You could count how many",
+"times I've seen or will see",
+"that pink Dogwood tree.",
+"But don't tell me, because",
+"there is nothing it could mean",
+"that I don't already know.",
+" ",
+"What I know is that I see it now",
+"and therefore forever."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem41",
+"title": "At Eternity's Gate",
+"pubDate": "Wed, 30 Aug 2023 13:00:00 +0000",
+"author": "Peter White",
+"content": [
+"Poorer now, for having lost touch with eternity.",
+"Poorer still, for waking now in this new world.",
+"One which has lost this feeling;",
+"but kept the memory."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem42",
+"title": "Description of a Crying Face",
+"pubDate": "Thu, 14 Sep 2023 13:12:17 +0000",
+"author": "Peter White",
+"content": [
+"Hills and valleys scar the land,",
+"While summer droughts yield to streams of blood.",
+" ",
+"Muted thunder seeks to hold our hand,",
+"But clouds roll on, and conceal our sin.",
+" ",
+"The mind was clear, but now is flooded,",
+"Yet Fall will come, and storms will pass."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem43",
+"title": "Longing",
+"pubDate": "Fri, 06 Oct 2023 13:42:33 +0000",
+"author": "Peter White",
+"content": [
+"I often wish that I will live;",
+"A life that's long but also kind.",
+" ",
+"But on this hill, or in our hallway,",
+"I feel time change; it stays behind.",
+" ",
+"My mind expands, but then contracts,",
+"I've stood here now, for far too long.",
+" ",
+"I missed that future which I never had,",
+"I lost my past in which I did no wrong.",
+" ",
+"I often wish to become old,",
+"But a life that's long, can become cold.",
+" ",
+"I mourn my loves before they're gone,",
+"And pray for time to move along.",
+" ",
+"Now down the hill, or past the hall,",
+"all is well, and life is long.",
+"But time is strange, so I march on."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem44",
+"title": "Cardinal (sonnet 3)",
+"pubDate": "Tue, 03 Oct 2023 13:43:38 +0000",
+"author": "Peter White",
+"content": [
+"Serene I stand amidst the flowers, blue and white.",
+"Until its flash takes from me, all which must be right.",
+"No blood is shed for poets' sake, but hours pass",
+"And feelings fall. The Cardinal now retreats again.",
+"There is a future, where rose buds will bloom at dawn.",
+"Where gunshots one day cease, so fields may fear the fawn.",
+"Mistakes are left inside the past, to lie and rot;",
+"Where I walk free from glen to glen, where he does not.",
+"Serene I'll stand amidst those flowers, blue and white",
+"and wait and pray The Cardinal's Curse stays out of sight."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem45",
+"title": "Life According to You",
+"pubDate": "Wed, 11 Oct 2023 18:06:00 +0000",
+"author": "Peter White",
+"content": [
+"Who are you this time?",
+"The leaf makes its path, and so",
+"you must too. What now?"],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem46",
+"title": "Detritus",
+"pubDate": "Thu, 12 Oct 2023 18:09:00 +0000",
+"author": "Peter White",
+"content": [
+"Don't give up on it yet.",
+"Every thing and every body;",
+"Though not immediately known,",
+"Retains its one true purpose.",
+"If we stop existing",
+"Then we stop improving.",
+"Unity through decay",
+"Strengthens out bonds in life."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem47",
+"title": "Sin",
+"pubDate": "Thu, 12 Oct 2023 18:13:00 +0000",
+"author": "Peter White",
+"content": [
+"Iron sharpens iron, stone too with stone.",
+"To live on Earth forever, and ever now we must atone."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem48",
+"title": "Heron",
+"pubDate": "Thu, 12 Oct 2023 18:13:00 +0000",
+"author": "Peter White",
+"content": [
+"Things must change, except for my Heron.",
+"On far away shores, it is her I put my faith in.",
+" ",
+"From the time I was young I envied the sky",
+"for your wings then caressed it, and they will till I die."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem49",
+"title": "Divine-ness",
+"pubDate": "Thu, 12 Oct 2023 18:16:00 +0000",
+"author": "Peter White",
+"content": [
+"To love, and lose, and still be kind;",
+"A feat I keep within my mind.",
+"I fly and fail, such is my curse;",
+"tomorrows will come, until my hearse",
+" ",
+"To live, and love, to learn true kindness!",
+"This is a testament to His Highness.",
+"Creation loves, and sustains our life.",
+"The answer is there, inside our strife."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem50",
+"title": "For Gunner",
+"pubDate": "Thu, 26 Oct 2023 21:57:22 +0000",
+"author": "Peter White",
+"content": [
+"Lumps and",
+"Death.",
+"Leaps and ",
+"Faith.",
+"Love and",
+"You.",
+"Loss for ",
+"Me.",
+"Low now,",
+"But not forever, someday soon",
+"I'll remember in tints of rose."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem51",
+"title": "The Shepherds Goodbye",
+"pubDate": "Thu, 26 Oct 2023 22:00:13 +0000",
+"author": "Peter White",
+"content": [
+"But all the love and Worlds remain,",
+"It's gifts that die and minds that change.",
+"Pleasures now ought move us still,",
+"This love of ours rots on the sill.",
+" ",
+"Spring will end, and then the harvest",
+"So too rocks roll into a far mist.",
+"The gown I've sewn, new shoes and kirtle,",
+"The seeds I've grown to boughs of myrtle.",
+" ",
+"The scent of posies have been forgotten",
+"You say these pleasures will soon be rotten,",
+"The flowers will fade to wanton fields,",
+"Now here I claim that love won't yield.",
+" ",
+"Had joys no date, nor age no need",
+"Then still I'd wait, for signs to heed.",
+"I hope for you that pleasures spawn",
+"And move your mind past curtains drawn."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem52",
+"title": "Liriope and Laternflys",
+"pubDate": "Thu, 26 Oct 2023 22:04:46 +0000",
+"author": "Peter White",
+"content": [
+"My thoughts of love and all the light that's shown.",
+"Which is no more, but songs that sing for dusk.",
+"And dusk now gives to black of night. Far blown,",
+"the wind still paints my love as but a husk.",
+" ",
+"Since many years, and time now can guide me,",
+"Was that love not but sculpture gone to rust?",
+"I played the jury but had no folly;",
+"I killed, and cried for those who stole my trust."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem53",
+"title": "Soot to Soil",
+"pubDate": "Wed, 01 Nov 2023 22:09:06 +0000",
+"author": "Peter White",
+"content": [
+"What's here now is soot",
+"With still burning embers.",
+"Before now were flames,",
+"But no screams and no pain.",
+"Just lookers on,",
+"And the tears that they brought.",
+"Before then was smiles,",
+"And again will there be.",
+"For soot goes to soil,",
+"And the soil to trees."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem54",
+"title": "Platanus occidentalis",
+"pubDate": "Thu, 02 Nov 2023 21:20:13 +0000",
+"author": "Peter White",
+"content": [
+"Always have they been, and will they be, beauty and peace.",
+"Too populous yet individual for any man alone",
+"To see, and know; but still I have pleasure",
+"To think of knowing thee.",
+" ",
+"Crowned in fall with leaves of gold, You gleam ",
+"With grace as your branches fold.",
+"In Spring your hollows bid farewell,",
+"To bears and fawns who within you dwelled. In Summer,",
+"One beholds your might, above the forest",
+"With skin so white. Winter comes",
+"And still you hold dominion, no sight is kinder",
+"To any true Virginian.",
+" ",
+"A crooked and hollow trunk tells me you remember.",
+"Chestnuts gone, the Ash will follow,",
+"You once housed the Swifts and Swallows.",
+"I see your branches,",
+"Always reaching,",
+"You must still miss them,",
+"And all their teachings.",
+"I feel your pain, great Sycamore, I miss them too--",
+"But it is you that I adore."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem55",
+"title": "What's Underneath the Manhole Covers",
+"pubDate": "Fri, 03 Nov 2023 19:21:19 +0000",
+"author": "Peter White",
+"content": [
+"The rats live forever",
+"Beneath the manhole covers.",
+"In this world there is no man,",
+"No one to catch the plague,",
+"Or eat the pizza first.",
+" ",
+"Beneath the manhole covers,",
+"The rats live forever and they love to live.",
+"Their kings rule with love",
+"And there is always enough.",
+" ",
+"There is a world beneath our feet",
+"And as we walk from work to sleep",
+"The rats relax then eat their fill."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem56",
+"title": "A View of the Past",
+"pubDate": "Sat, 04 Nov 2023 23:09:29 +0000",
+"author": "Peter White",
+"content": [
+"I've sat with the song,",
+"RIGHTALIGN","yet I can't seem to listen.",
+"There's a crack in the leaves,",
+"RIGHTALIGN","and the cars and their cries.",
+"The sparrow calls out,",
+"RIGHTALIGN","and her wings send a spell.",
+"I know that they speak but I never",
+"RIGHTALIGN","know if they're speaking to me.",
+"Until one day when",
+"RIGHTALIGN","the wind turns around.",
+"I'm in a new place,",
+"RIGHTALIGN","I feel pleased in this park.",
+"I look back and listen,",
+"RIGHTALIGN","the same song but no lies.",
+"No green leaves cracks,",
+"RIGHTALIGN","and no more do cars cry.",
+"I've tried to ask why,",
+"RIGHTALIGN","but time tells no tales.",
+"I look back again to still the same things,",
+"RIGHTALIGN","and only then do I think, that it's me who has changed."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem57",
+"title": "The Virtues",
+"pubDate": "Mon, 06 Nov 2023 04:13:46 +0000",
+"author": "Peter White",
+"content": [
+"Why should art cry?",
+"And artists despair?",
+"I hear laughter on the breeze",
+"And an ease in the air."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem58",
+"title": "Egress",
+"pubDate": "Tue, 07 Nov 2023 03:01:14 +0000",
+"author": "Peter White",
+"content": [
+"It struck me that all I had to do was turn back. And when I turn, I blink and wet my eyes. The beach is clear, the sun is a furnace. The day is fine but in my hand I hold a gun and fire. The man falls down and I turn again, and still the beach looks quite the same.",
+"It struck me then that instead I could have walked away, thought no more about it. The glints of sun that blinded me, I should have thanked them for hiding her. I walked away, this time through the woods. I blink again but not for eyes that were dry. This time no blood was shed, and I never returned again. In moments since the sun blinds me still; the place we met, the trip we took, those dark old woods. I never could go back, but in my mind it's quite the same.",
+"It struck me then, there may be something more. I’ve walked along inside a seashell whose spirals guided me. It’s tried to show me, but nothing’s changed. It was in that dungeon I locked myself, left no trail, and fell completely. It’s time now I go on my own. I’ll blink until the woods are gone. Until there’s nothing that brings reminding of anything that’s not my own."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem59",
+"title": "The Flute Spell",
+"pubDate": "Wed, 08 Nov 2023 03:11:13 +0000",
+"author": "Peter White",
+"content": [
+"Hard meat don't get eat.",
+"It sits and rots and eats itself.",
+"It stays itself; since no one wants it.",
+" ",
+"Then bit by bit its grit will split.",
+"It stayed the same, but failed to help;",
+"So it knew no one, and not itself."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem60",
+"title": "My Muse",
+"pubDate": "Thu, 09 Nov 2023 02:41:02 +0000",
+"author": "Peter White",
+"content": [
+"My words come from love",
+"And the good times I've had.",
+"From the time's that I've struggled",
+"But after they've passed.",
+"For dark needs the light,",
+"Not the other way round."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem61",
+"title": "What I Saw Out My Window",
+"pubDate": "Fri, 10 Nov 2023 03:31:14 +0000",
+"author": "Peter White",
+"content": [
+"Crows brought in the night,",
+"The black concealed friends like foes,",
+"And so kings cowered."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem62",
+"title": "Old Growth Cemetery",
+"pubDate": "Fri, 10 Nov 2023 23:11:59 +0000",
+"author": "Peter White",
+"content": [
+"Heavy hang the boughs and branches",
+"On dew dropped mornings when doves still lie.",
+"The forest floor seems dank and rancid",
+"With ghouls and ghosts from times passed",
+" ",
+"Ferns and orchids can wilt no more;",
+"The ash, the chestnut, and sycamore;",
+"When steam still ruled, their reigns cut short,",
+"Now moss oozes in newborn woods until returns the royal court."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem63",
+"title": "Forgetfulness",
+"pubDate": "Sat, 11 Nov 2023 18:06:04 +0000",
+"author": "Peter White",
+"content": [
+"Beyond the flame; outside the window.",
+"Here in the street, my neighbors weep.",
+" ",
+"Still in the kitchen; there sits my pencil,",
+"and songs and stories; I'll never speak.",
+" ",
+"Inside the flames; there is a pureness",
+"And from that pureness; there comes a blankness.",
+" ",
+"Years will pass; new homes will stand",
+"And then we'll know; that nothing then was ever written.",
+" ",
+"No pencil laid upon no paper,",
+"No oven burned for far too long,",
+"No food caught flame,",
+"And no one to blame,",
+"No memories of what then was lost.",
+" ",
+"Beyond the flame; and through the window",
+"I see mistakes that turn to smoke.",
+"I see the pen, I see the paper,",
+"I see in each, my new beginnings.",
+" ",
+"No songs were sung, nor poems spoken.",
+"Those parts of me are left behind,",
+"Except for now within these verses",
+"Where I confess my one true crime."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem64",
+"title": "Jenna’s Coat",
+"pubDate": "Sun, 12 Nov 2023 17:36:40 +0000",
+"author": "Peter White",
+"content": [
+"Light pours in around the front door;",
+"In golden paths, hardwood becomes worn.",
+"She lies content on Sunday Mornings,",
+"Amber tinted fur upon her, adorning."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem65",
+"title": "My Own Perspective",
+"pubDate": "Tue, 14 Nov 2023 05:53:52 +0000",
+"author": "Peter White",
+"content": [
+"Above I see a weary ship,",
+"It’s traveled far in empty seas,",
+"With battered sails and muted colors",
+"And leagues to go before it moors.",
+" ",
+"Against a canvas, blinding blue",
+"I share this view with no one else",
+"But at a distance I have to wonder,",
+"Are you on high, searching too for me?"],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem66",
+"title": "Its Absence is a Friend",
+"pubDate": "Wed, 15 Nov 2023 00:15:04 +0000",
+"author": "Peter White",
+"content": [
+"He walks along a shore",
+"And the ocean is its absence,",
+"Which his boots must ignore",
+"If his journey will continue.",
+" ",
+"Or instead, he'll walk the boardwalk.",
+"From here the ocean's shrinking",
+"And the ocean is its absence",
+"So its shrinking feels like healing.",
+" ",
+"Now his life continues like before,",
+"But through the tap the ocean lingers",
+"And in the bath its weight is crushing",
+"And on the shore it felt quite soothing.",
+" ",
+"So he returned to walk some more",
+"And lift his boots a little higher",
+"And stop to soak it in.",
+"For the ocean is its absence,",
+"So now the ocean is a friend."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem67",
+"title": "I Have",
+"pubDate": "Thu, 16 Nov 2023 03:01:19 +0000",
+"author": "Peter White",
+"content": [
+"And I say to myself: Here is the road that is mine. I have walked its length, in rain I have waded, in snow I have turned and seen only my own prints. I have left, I have returned, but in the Spring when life goes forward, there is still a path nestled in the coneflowers and goldenrod. I have traveled far, lived lives without this road, and gifted it to those I have trusted, but in the woods or on any street, in dark of night or blinding morning clarity I count my steps and see no distance gained. I have learned that I know very little. I have learned that what cannot be left behind by leaving can not be given away, and must be returned to, if not now, a little ways down the road."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem68",
+"title": "Pride",
+"pubDate": "Thu, 16 Nov 2023 22:42:40 +0000",
+"author": "Peter White",
+"content": [
+"There came a time I knew",
+"And took pride in knowing.",
+"Then I learned",
+"And now am content to listen."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem69",
+"title": "The Cycle of Soil",
+"pubDate": "Fri, 17 Nov 2023 14:42:00 +0000",
+"author": "Peter White",
+"content": [
+"All things turn to dust,",
+"But before that they are the soil",
+"And we will be too.",
+"Before then, I will know this green world",
+"And what can be my place.",
+"I will be the soil",
+"and help those in the dust."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem70",
+"title": "Ownership",
+"pubDate": "Sat, 18 Nov 2023 14:45:00 +0000",
+"author": "Peter White",
+"content": [
+"There were years I did not visit,",
+"But grass still grew, and memories,",
+"Like objects, and people, still needed cleaning.",
+"So when I returned, I began",
+"by laying still in the flowers and the past."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem71",
+"title": "A Poem For Roger",
+"pubDate": "Sun, 19 Nov 2023 15:42:29 +0000",
+"author": "Peter White",
+"content": [
+"In the dead and dark",
+"Within damp dens,",
+"I sit and toil toward",
+"your tempting tastes.",
+" ",
+"Then you slip to sleep",
+"So I may sneak in silence;",
+"revealed from your cupboard, curly",
+"Or from your covers, cautiously.",
+" ",
+"When you wake with peaceful patience",
+"Laid upon you are my paltry poems.",
+"Cupboard covers readily returned;",
+"Ethereal elves still remaining recluse."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem72",
+"title": "Another Chance",
+"pubDate": "Tue, 21 Nov 2023 01:14:01 +0000",
+"author": "Peter White",
+"content": [
+"The blindfold has fallen",
+"And disappears in the lake.",
+"Lost as tears in the rain,",
+"Or a moth in the flame.",
+" ",
+"The water is mud;",
+"Who, with malice, slows my pace.",
+" ",
+"But nothing changes",
+"Without feeling strange",
+" ",
+"So I stop, in its grasp",
+"And find within me, new space.",
+" ",
+"I think, it was in love I was found",
+"And now, again, am I bound."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem73",
+"title": "Mud",
+"pubDate": "Wed, 22 Nov 2023 04:07:42 +0000",
+"author": "Peter White",
+"content": [
+"I.",
+"In summer heat",
+"The year’s growth turns dark",
+"And when the tree has fallen",
+"We count it’s life in rings.",
+" ",
+"II.",
+"If I stay, I’m in the moment",
+"But I don’t plan to leave",
+"And so it is not yet remembered.",
+" ",
+"III.",
+"I’ll try",
+"All over again",
+"To try",
+"All over again.",
+" ",
+"But November is nearly past",
+"And I’m ankle deep in the mud.",
+" ",
+"It’s easier now than one year ago",
+"But there is risk in belonging",
+"And in letting this pass by.",
+" ",
+"So, I’ll try ",
+"All over again",
+"To try",
+"All over again."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem74",
+"title": "Pandas at the National Zoo and My Baby Cousin",
+"pubDate": "Wed, 22 Nov 2023 15:13:00 +0000",
+"author": "Peter White",
+"content": [
+"On the savanna ",
+"Between the lions and emus",
+"We stop for lunch and",
+"Begin to grieve the pandas.",
+" ",
+"\"They’re coming back, you know.\"",
+"RIGHTALIGN","\"Yeah, thank God we avoided world war 3.\"",
+" ",
+"And Leo stares through us",
+"Towards his courageous namesake.",
+" ",
+"Today he is older,",
+"I suppose I am too,",
+"But as he smiles, and tries again",
+"To walk like a grown up",
+"I feel excited.",
+" ",
+"\"Can we bring Leo back when the pandas return?\" I ask his mother."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem75",
+"title": "Thanksgiving Prayer, 2023",
+"pubDate": "Thu, 23 Nov 2023 19:15:51 +0000",
+"author": "Peter White",
+"content": [
+"There was a time that we, like children, ",
+"Assumed a bond prior to its presence,",
+"But now prefer that which is private",
+"Like the timid association of cars",
+"Who follow but never touch their neighbors,",
+"Or two ships passing in the night.",
+"Like dogs on sidewalks pushing against their harnesses,",
+"Trying hard to meet, to succeed at all despite,",
+"Or subway rails that never cross.",
+" ",
+"I've felt the warmth for those I love,",
+"And I am trying hard to feel it always,",
+"But somedays the flame still cools",
+"And leaves us rigid as the coldness of skyscrapers",
+"Dodging glances across 34th street.",
+" ",
+"On Thanksgiving day the warmth surrounds",
+"And I remember everyone. I let it warm me to the core.",
+"And try to say to those around me:",
+" ",
+"If we are ships on Winter nights,",
+"I'll stand outside, and hold my candle.",
+"If we are trains on different lines,",
+"I'll hold my doors, as long as I can handle.",
+" ",
+"My prayer is that I'll have that strength.",
+"My prayer is that I'll feel the warmth.",
+"At the very least, I'll meet your eyes,",
+"And hear about your day.",
+"At the very least I'll make a seat at my own table,",
+"And I'll be happy when you arrive."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem76",
+"title": "Waiting",
+"pubDate": "Sat, 25 Nov 2023 04:03:27 +0000",
+"author": "Peter White",
+"content": [
+"Winter comes to demand we rest,",
+"So wait for warmth beside the fire"],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem77",
+"title": "Winter",
+"pubDate": "Sun, 26 Nov 2023 04:32:30 +0000",
+"author": "Peter White",
+"content": [
+"CENTERALIGN","The air stings our lungs",
+"CENTERALIGN","The sun rests too; on long nights",
+"CENTERALIGN","I thank Spring for blooms."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem78",
+"title": "The Potomac",
+"pubDate": "Mon, 27 Nov 2023 04:01:31 +0000",
+"author": "Peter White",
+"content": [
+"The river has run its course",
+"And in my life has become an hour glass",
+"Whose sand will fall, at least a few weeks more",
+"Until I return to measure myself, and how the time has passed."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem79",
+"title": "Old Long Since",
+"pubDate": "Tue, 28 Nov 2023 04:00:12 +0000",
+"author": "Peter White",
+"content": [
+"Another gift to buy,",
+"One more glass on New Year’s Eve,",
+"And still more years on down the line.",
+"I think I’ll give it one more go,",
+"This time, now, for auld lang syne."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem80",
+"title": "The burden",
+"pubDate": "Wed, 29 Nov 2023 04:32:55 +0000",
+"author": "Peter White",
+"content": [
+"I have seen the burden laid by God",
+"That all has beauty in its time.",
+" ",
+"But to man He gifted memory,",
+"And now we mourn those beauties passed.",
+" ",
+"So too was man gifted hope,",
+"To dream of futures that never reign."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem81",
+"title": "Next Month Again",
+"pubDate": "Thu, 30 Nov 2023 04:45:00 +0000",
+"author": "Peter White",
+"content": [
+"I never told you",
+"I was saying something new.",
+"It’s been a month",
+"And one full moon",
+"But on these pages",
+"And to your mind",
+"I’m trying hard",
+"To say one thing True."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem82",
+"title": "Until Next Year",
+"pubDate": "Thu, 30 Nov 2023 21:53:27 +0000",
+"author": "Peter White",
+"content": [
+"Let the hour hand fall back,",
+"Let the sun take its rest.",
+"I will sit inside",
+"Bathing in soft warm lights,",
+"Hoping November lasts forever.",
+" ",
+"And when the calendar turns again,",
+"I'll continue on, into December,",
+"Longer in the tooth,",
+"But no worse for ware.",
+"The days continue passing",
+"But it was then, in November,",
+"That I found who I am."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem83",
+"title": "A Conversation with Calypso",
+"pubDate": "Tue, 19 Dec 2023 00:01:48 +0000",
+"author": "Peter White",
+"content": [
+"\"Is it you who makes me stay?",
+"Who controls the waves?",
+"The swaying stalks?",
+"The deadly bays?\"",
+" ",
+"RIGHTALIGN","\"And if it were?\"",
+"A voice replied,",
+"RIGHTALIGN","\"Would you swim ashore?",
+"RIGHTALIGN","Instead face the sky?\"",
+" ",
+"I hold my ground",
+"But tread in the water.",
+"\"Cold now, the currents grow,",
+"The sun has set, your shadows totter.\"",
+" ",
+"There is no bottom",
+"To this the blackest lake.",
+"And her voice surrounds,",
+"RIGHTALIGN","\"Then leave, unless there is more to take.\"",
+" ",
+"\"But where to go?",
+"If the past has died?\"",
+"RIGHTALIGN","\"Still on down the stream",
+"RIGHTALIGN","To journeys onward,\" she softly cries.",
+" ",
+"I see shadows lean further in",
+"Now serpents cinch, and I suffocate.",
+"Still my voice sounds out, no trace of pain,",
+"\"I'll go- just not now. Please, a moment longer.\""],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem84",
+"title": "Less Traveled By",
+"pubDate": "Tue, 19 Dec 2023 00:45:34 +0000",
+"author": "Peter White",
+"content": [
+"Two roads there were",
+"In those woods once yellowed",
+"By summer rains, and many fellows",
+"Who tread the paths,",
+"That are now no where.",
+" ",
+"Once they wore about the same",
+"Then many moons, and people changed.",
+"Grass and ivy took their time, and rearranged;",
+"By dawn and dusk, never aided by flame,",
+"But still they showed no sign of strain.",
+" ",
+"More moons passed still,",
+"Somewhere man's regrets now faded,",
+"The yellowed wood, now long degraded,",
+"Held no bird song, no sparrow's trill.",
+"No steps remembered or choices felt,",
+"No beast now knows us, who once walked this hill."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem85",
+"title": "A Poem in the Oldest Woods",
+"pubDate": "Mon, 01 Jan 2024 18:05:36 +0000",
+"author": "Peter White",
+"content": [
+"CENTERALIGN","So",
+"CENTERALIGN","Your",
+"CENTERALIGN","Growth",
+"CENTERALIGN","Is scorched.",
+"CENTERALIGN","By days",
+"CENTERALIGN","Of drought and ",
+"CENTERALIGN","Inches gained back in Spring.",
+"CENTERALIGN","Your age is",
+"CENTERALIGN","Marked by how you've changed.",
+"CENTERALIGN","In rings of growth and bark now singed.",
+"CENTERALIGN","The past remains",
+"CENTERALIGN","Though only         where it was.",
+"CENTERALIGN","And one day           roots will rot",
+"CENTERALIGN","Or storms will blow        to prune old limbs.",
+"CENTERALIGN","Another year of growth, and days now gone will wither,",
+"CENTERALIGN","Dry up,",
+"CENTERALIGN","Burn up,",
+"CENTERALIGN","And die."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem86",
+"title": "No One",
+"pubDate": "Fri, 05 Jan 2024 20:20:00 +0000",
+"author": "Peter White",
+"content": [
+"Bald head and bleeding beak,",
+"And arms that block the sun,",
+"And legs like stilts above the dear—",
+"No, it was a fox, but is now no one.",
+"Through throbbing pulses from the throne",
+"One life leaves and I go on.",
+"The rail clicks once, and now they’re gone.",
+"The vulture, and the fox, and their image in my mind."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem87",
+"title": "The First Light and Long Since",
+"pubDate": "Mon, 22 Jan 2024 20:23:00 +0000",
+"author": "Peter White",
+"content": [
+"Wake now.",
+"Rise gently,",
+"And aim to shake the soul.",
+"Shake until dust falls,",
+"Until you always were awake."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem88",
+"title": "Mourning for Light",
+"pubDate": "Mon, 22 Jan 2024 20:25:00 +0000",
+"author": "Peter White",
+"content": [
+"Wind bites down and clamps its maw,",
+"And in its wake the meadow calms.",
+"Black as souls that no love has known,",
+"The sky shows fawns that are not there,",
+"And I hear songs from winter birds.",
+"Cold iron lays limp in my lantern,",
+"And freezes the world where it lays.",
+"One day—and it will have been soon—",
+"The sun will come, and I will mourn",
+"At greater intervals, and pray to Him",
+"In days between."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem89",
+"title": "The River to Pray",
+"pubDate": "Sun, 28 Jan 2024 20:27:00 +0000",
+"author": "Peter White",
+"content": [
+"Clouds above now reflected in you,",
+"In waters which flow but stay so serene,",
+"And carry the dirt from me far away.",
+"Still through the winter, and curtains drawn",
+"The low lying sun burns on my arm,",
+"And shows skin unclean, and bruises unhealed.",
+"Back on your shores the sun now sits higher,",
+"And your currents still reign, under surface so placid.",
+"I’ll scrub in your waters, and I swear I’ll see God;",
+"But the winter still comes and your ways give me pause.",
+"I’ll open the curtains and let the light in",
+"Though its blinding in the morning, So next spring I’ll stay in."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem90",
+"title": "The Sea of Tranquility",
+"pubDate": "Sun, 28 Jan 2024 20:28:00 +0000",
+"author": "Peter White",
+"content": [
+"It’s in still waters I never can sleep,",
+"As your light tries to guide, against the clouds as they leap.",
+"I still steer the ship to a dock that’s not home,",
+"Where we’ve been before but no maps have shown.",
+"Soon the moon sets, another port disappears",
+"But your light still remains to combat my fears",
+"Of the jewel in the sky and the treasure she hides,",
+"And the love of adventure, and a new chance to try."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem91",
+"title": "Sun &amp; Moon Sonnet",
+"pubDate": "Thu, 01 Feb 2024 20:29:00 +0000",
+"author": "Peter White",
+"content": [
+"It was inside the sun that love was found",
+"And in her breast time will tick till all is gone.",
+"Then each night the sun upon the moon rebounds",
+"And so the clock turns back until the dawn.",
+"As days break, the moon remembers its light",
+"And declares that it was in love she was created",
+"And in love she hopes to die."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem92",
+"title": "Worth the Night",
+"pubDate": "Tue, 06 Feb 2024 20:31:00 +0000",
+"author": "Peter White",
+"content": [
+"After first light,",
+"And in that warm motel,",
+"When the first day became the first night.",
+"After that",
+"Began the rest",
+"And so the end arrives."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem93",
+"title": "Tied in a Not",
+"pubDate": "Mon, 19 Feb 2024 20:32:00 +0000",
+"author": "Peter White",
+"content": [
+"In the morning light floods",
+"Through the closed curtains.",
+"Beneath the sheets two will fall",
+"Back to different lives and loves.",
+"Left behind: what could’ve been,",
+"And thank God was not, what was",
+"Prevented and tossed out.",
+"Taken with the morning garbage,",
+"The chance for life and",
+"Today’s ways of waiting for better times.",
+"A blessing and our curse,",
+"The ability to forget",
+"Mistakes, and ignore",
+"What could have been."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem93",
+"title": "The Sphinx",
+"pubDate": "Wed, 24 Apr 2024 19:38:43 +0000",
+"author": "Peter White",
+"content": [
+"I.",
+"He sees",
+"She knows",
+"And so wants to.",
+"He brings",
+"Her gifts",
+"And asks politely",
+"For grace",
+"As mercy",
+"And then he waits.",
+" ",
+"II.",
+"No answer comes",
+"From sullen eyes.",
+"I see myself",
+"Inside her mirror.",
+"Tinted and obscured.",
+"The sun then sets,",
+"And our eyes close.",
+"Through cold sands I",
+"Turn and muster",
+"The strength I need",
+"To ask again."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem94",
+"title": "The Shenandoah",
+"pubDate": "Wed, 24 Apr 2024 19:40:39 +0000",
+"author": "Peter White",
+"content": [
+"I long to know the Shenandoah",
+"Or some other currents",
+"By another name.",
+" ",
+"I long to know the Shenandoah",
+"Or at least hear of his power.",
+"The stories of peace he kept,",
+"And the wars that came before.",
+"The stories of his daughter’s beauty,",
+"Which haunts the seas that bear no name.",
+"Or of the tides he learned to tame,",
+"And the beasts that knew his fame.",
+" ",
+"I long to know, and so adore",
+"A place that binds me to its story.",
+"To know the land and see it change",
+"From abstract art and tales of yore",
+"To kids that know, and still want more",
+"But never from their Shenandoah."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem95",
+"title": "Help!",
+"pubDate": "Wed, 24 Apr 2024 19:43:25 +0000",
+"author": "Peter White",
+"content": [
+"We are stuck",
+"In a tree",
+"And want to be",
+"Free!",
+"Please come and see",
+"Whoever you may be.",
+" ",
+"Hear our plea!",
+" ",
+"What?",
+"That is my ladder.",
+" ",
+"What?",
+" ",
+"Yes.",
+"I <em>am </em>a fireman.",
+" ",
+"What? (I’m sorry, you’ll have to excuse my hearing—",
+"I’m quite high off the ground.)",
+" ",
+"What?",
+" ",
+"No.",
+"That is not my cat."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem96",
+"title": "Elixir of Life",
+"pubDate": "Wed, 24 Apr 2024 19:44:26 +0000",
+"author": "Peter White",
+"content": [
+"Eye of newt",
+"Tongue of toad",
+"A drop of blood",
+"And touch of lime.",
+"It bubbles and smokes,",
+"And then fills my throat",
+"But it needs something else.",
+"Leave in the liver to liven it up.",
+"Another sip and now we wait…",
+"Though nothing changes, we’ll leave it at that",
+"I’ve tried my best, and must now take a nap.",
+"Tomorrow again I’ll seek out the answer, But first I must harvest the ear of the cat."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem97",
+"title": "Sowing What You Reap",
+"pubDate": "Wed, 24 Apr 2024 19:46:50 +0000",
+"author": "Peter White",
+"content": [
+"In harvest season there is a feast.",
+"Between the neighbors, sons and daughters,",
+"All eat their fill, then go to sleep.",
+"Each year more come, and are invited",
+"To reap the spring’s sowing before the winter",
+"And the coming darkness.",
+"But before the feast has come and gone,",
+"The finest crops must be collected",
+"And their seed allowed to continue on.",
+"In harvest season there is a feast",
+"To fill the air with love and life,",
+"To thank the coming of another dawn.",
+"But more than that, to thank the farmers",
+"Who planted food they’d never eat,",
+"Who planned for shade they’d never see,",
+"Who’ve made our winters a little warmer."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem98",
+"title": "Brain Soup",
+"pubDate": "Mon, 06 May 2024 14:39:08 +0000",
+"author": "Peter White",
+"content": [
+"My head is full.",
+"Full of brain soup,",
+"And the brain is nearly ripe,",
+"Nearly wrinkled just enough.",
+"Inside each crevice seeps in the broth",
+"And when i twirl my spoon",
+"My mouth begins to water–",
+"Then my arms don’t work…",
+"Huh– I guess I’ll lift the spoon from my skull",
+"And ignore the side which now droops.",
+"But still I cannot wait another night",
+"To see a brain that’s wrinkled just enough."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem99",
+"title": "Egress",
+"pubDate": "Mon, 20 May 2024 14:52:40 +0000",
+"author": "Peter White",
+"content": [
+"The beach is clear, the sun is a furnace.",
+"The day is fine but far too bright and a man",
+"Stands facing me. Even then I knew ",
+"I should've turned back, yet in my head there",
+"Was a gun and so I fired. The man fell,",
+"And the flames did not relent, so I blink",
+"And wet my eyes.",
+" ",
+"Even then, as he stood before me, I knew",
+"I could've walked away toward the shade",
+"And thought no more of it. The glints of sun,",
+"I thank them now as I walk from beaches and",
+"Through the woods. I blink again, beneath",
+"The canopies which shield me from that day.",
+"I hide where no blood is shed, and I never  go",
+"Back. The place we met, the paths we took",
+"Towards that sea. I never could go back but",
+"In my mind its quite the same.",
+" ",
+"On mountain tops. And Sunny days it still",
+"Pokes through, no matter how quick I turn my head.",
+"Through these windows, the man lays still and",
+"Flaming tendrils steal my vision. I have walked",
+"long towards a day I could forget, but",
+"each path only leads back. I blink to clear",
+"The visions and so my shame. But nothing changes.",
+"Even then, I think I knew this day would come.",
+"When I'd turn back to greet the sun. To see the shadows,",
+"And no longer run. In my mind, that day is the same,",
+"But since the beach it all must change."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem100",
+"title": "Harmony",
+"pubDate": "Mon, 17 Jun 2024 14:56:45 +0000",
+"author": "Peter White",
+"content": [
+"\"This is how it ends.\"",
+"I disagree with strength I cannot muster.",
+"You shake and cannot walk",
+"But I can’t bare to look",
+"For a second,",
+"An eon of moments,",
+"Nor just this instant.",
+"Still you are all that I can see."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem101",
+"title": "The Diving Board",
+"pubDate": "Mon, 12 Aug 2024 14:57:06 +0000",
+"author": "Peter White",
+"content": [
+"Before the board may hold my weight,",
+"Before it crashes down toward the water",
+"And hurls me to the sky, I am pulled",
+"To its edge--",
+"Pulled by the chatter and excitement",
+"That swaddles memories of the Summer;",
+"Pulled by the wait, and the tension in",
+"My chest from waiting some more;",
+"Pulled by fear I haven’t felt since.",
+" ",
+"That I’ll soar high and land on my back;",
+"That someone will see my awkward descent;",
+"That it hasn’t been 30 minutes",
+"But we’d be leaving soon; that <em>something</em>",
+"Could happen I’d never thought of since.",
+" ",
+"Behind me and on the pool deck:",
+"Strangers—mostly, that girl",
+"That I loved, and the boy",
+"From school, and the one",
+"I met today, and haven’t seen since.",
+" ",
+"Their faces seem warped",
+"From the heat of that July day;",
+"From the lens of remembering.",
+"Warped like the board",
+"Who dipped slightly beneath me;",
+"Whose fibers groaned quietly",
+"From the memory of summers",
+"Past, and the thought of even one more august.",
+" ",
+"Beneath my weight and the board",
+"Stood a brilliant blue mosaic",
+"Warped, too, by ripples and",
+"Dancing sunbeams.",
+"Geometry that, today,",
+"Nestles me in the fur of the past.",
+" ",
+"A past where I lived, but now",
+"Only visit; where I ran and laughed",
+"And loved, but now only visit;",
+"A past where, when I visit,",
+"I see only the pool—the art",
+"That was beneath it."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem102",
+"title": "Cleaning the Hallway",
+"pubDate": "Mon, 19 Aug 2024 15:01:18 +0000",
+"author": "Peter White",
+"content": [
+"What once could take days",
+"Now takes far less;",
+"There were ghosts in the hall",
+"Who I’ve put to rest.",
+"A whole forest sprouting",
+"Or a mountain top’s view;",
+"Now just a nap",
+"Or a morning’s fresh dew.",
+"The sheets are now folded",
+"Not covering faces;",
+"Sometimes the laundry alone",
+"Is what makes safe spaces.",
+""],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem103",
+"title": "The Same Path, Once More",
+"pubDate": "Mon, 23 Sep 2024 15:02:51 +0000",
+"author": "Peter White",
+"content": [
+"This will be the last time",
+"We walk this path together –",
+"              We thought, defeated.",
+"But that was then, and here we are",
+"Your paws submerged in the dead brown pond.",
+"Again you lived to swim",
+"And again you walked home",
+"Through the woods, down the lane, still toward another winter.",
+" ",
+"This will be the last time",
+"              I think, thankful",
+"For how you’ve proved us wrong before.",
+"But that was then, and now is different.",
+"Your bowl is never emptied now,",
+"You need help off the ground now,",
+"And death is not a stranger but",
+"Now a mass in your brain.",
+"This—inevitable",
+"This will be the last time,",
+"              And it will have been enough.",
+""],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem104",
+"title": "Annual Desires",
+"pubDate": "Mon, 23 Sep 2024 15:06:47 +0000",
+"author": "Peter White",
+"content": [
+"First I want",
+"To live simply,",
+"Then to save the world.",
+"Next I want",
+"To write",
+"And so I write.",
+" ",
+"First comes Spring,",
+"And then Summer.",
+"Next is Fall",
+"And then the Winter."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem105",
+"title": "Return",
+"pubDate": "Fri, 01 Nov 2024 13:42:14 +0000",
+"author": "Peter White",
+"content": [
+"A loon toward his lake—",
+"    Bloodshot eyes and new scars",
+"    To show his lover.",
+" ",
+"The time alone",
+"Spent in bed ",
+"After late nights.",
+" ",
+"Homely, welcoming curves—",
+"    On familiar roads",
+"    That started far away.",
+" ",
+"True voyage is return.",
+" ",
+"As the hound knows—",
+"    Briefly breaking out",
+"    With dreams of fowl",
+"    Trapped in his maw.",
+"    He bounds through prairie",
+"    And ducks from branches",
+"    Then slows the heart",
+"    And heads back home.",
+"    With slobbered memories",
+"    Of life unbound, with",
+"    A tail that says",
+"    He’s glad he’s found."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem106",
+"title": "Posture of a Mother",
+"pubDate": "Sat, 02 Nov 2024 18:31:38 +0000",
+"author": "Peter White",
+"content": [
+"Always leaning under the weight",
+"Of children beared on broad hips.",
+" ",
+"A rear view mirror skewed too far",
+"So the back seat is always in view.",
+" ",
+"Her home kept just so-",
+"So, when they grow up and come back,",
+"INDENT"," They still fit. ",
+"So, there is space on the couch for all,",
+"INDENT"," Even if she has to squeeze between dogs. ",
+"So any guests that enter are reminded",
+"INDENT"," Of their own; so they are welcomed in ",
+"INDENT"," To a mother's- in to their home.",
+""],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem107",
+"title": "Proclamation or Promise",
+"pubDate": "Mon, 04 Nov 2024 00:18:54 +0000",
+"author": "Peter White",
+"content": [
+"I wouldn't say it if I didn't mean it",
+"Or I would and wish I hadn't",
+"And wish you could hear my thoughts-",
+"Bathe in my sincerity.",
+" ",
+"I would not say it",
+"If I could help it",
+"If today were next year",
+"So I could be who I am",
+"Not now."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem108",
+"title": "The Stand",
+"pubDate": "Mon, 04 Nov 2024 16:55:47 +0000",
+"author": "Peter White",
+"content": [
+"Love grows old",
+"INDENT","And walks away.",
+"The home's creaking boards",
+"Forget my name<br>",
+"As the neighbors drain the beaver pond.",
+"The grief lasts forever."
+],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem109",
+"title": "Route 28 South",
+"pubDate": "Tue, 05 Nov 2024 19:06:35 +0000",
+"author": "Peter White",
+"content": [
+"Where is the regret?",
+"Not in his wicked smile",
+"But please be behind it,",
+" ",
+"Since it is also held in",
+"Clasped fingers losing blood flow",
+"Tightening and turning white.",
+" ",
+"The deer struck and crumpled now",
+"But not one car has slowed down.",
+" ",
+"Where is the regret",
+"In his rear view mirror?",
+"Please be hiding your pain.",
+" ",
+"INDENT"," Please. ",
+" ",
+"INDENT"," Please, ",
+"INDENT","INDENT","have pity for a life's ending ",
+"INDENT","INDENT","in a place that was not made for it. ",
+"INDENT","INDENT","Let me loose my fingers' pleading. ",
+"INDENT","INDENT","And feel- with me- the Earth ",
+"INDENT","INDENT","growing heavy behind diaphragms, ",
+"INDENT","INDENT","mine, yours, ",
+"INDENT","INDENT","INDENT","and impossibly peaceful Death's. "],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem110",
+"title": "Dawn",
+"pubDate": "Thu, 07 Nov 2024 03:55:31 +0000",
+"author": "Peter White",
+"content": [
+"The sun still rises ",
+"And through the dark",
+"Its beam still slices.",
+"Summers come and go",
+"But in the Winter",
+"It still melts the snow.",
+"When the night gives in to hate",
+"It’s light that says, \"love is stronger.\"",
+"And when the sun is more than late,",
+"Still, the dawn won’t be much longer."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem111",
+"title": "Thirst",
+"pubDate": "Fri, 08 Nov 2024 02:49:30 +0000",
+"author": "Peter White",
+"content": [
+"I drank, on my hands and knees",
+"Not with depth, but with greed.",
+"As if I had never drank",
+"As if the world were under a mile of sand",
+"And suddenly the sky broke.",
+" ",
+"When the rain finally ceased",
+"My lips were mud without the sea,",
+"Cracked and bloody-- I was drunk",
+"With new sensation. Thirst worse than before--",
+"Before a brush with sustaining wonder."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem112",
+"title": "Hunger",
+"pubDate": "Sat, 09 Nov 2024 02:16:42 +0000",
+"author": "Peter White",
+"content": [
+"Translucent, pale green complexion",
+"The kind that belongs only to a stranger",
+"Whose spine creates serration,",
+"Whose ribs are smothered",
+"Collapsing under tensioned skin",
+"And the weight of hunger.",
+" ",
+"It finds itself among a flock, with no protection,",
+"of soft, plump clouds gently grazing.",
+"In an instant blood is flowing like salvation:",
+"A divine gluttony, impossible but filling",
+"Until it is full and its heart",
+"Can stop beating,",
+"From one last act- then depravation."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem113",
+"title": "Uni Kuru Toga",
+"pubDate": "Sat, 09 Nov 2024 21:17:39 +0000",
+"author": "Peter White",
+"content": [
+"Luster lacking, after lasting labor,",
+"Sitting still, scratched, and stained",
+"With oils and dead skin,",
+"And an eraser lost--",
+"I'm not sure when.",
+" ",
+"Banal, bent bits, and broken",
+"Plastic. Pencils pushed passed expiration,",
+"Or brought along willfully.",
+"When I write, I think of you",
+"And how things are a part of me."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem114",
+"title": "The Stand",
+"pubDate": "Mon, 11 Nov 2024 19:21:47 +0000",
+"author": "Peter White",
+"content": [
+"Sandy soil",
+"Housing funny plants",
+"Ticklish to the touch.",
+"And nothing much around.",
+"Swings that creak",
+"And fly me through the fire",
+"Smoke. A taste of s'mores",
+"And once an oyster.",
+"Soft, soft bread, and couches",
+"And a rocking chair",
+"In a room we all would pack in.",
+" ",
+"An attempt to let it all live on.",
+"Acceptance that its gone.",
+" ",
+"The Stand",
+" ",
+"A place of vast- and close-ness",
+"A chance for grace from egress."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem115",
+"title": "Fall Light",
+"pubDate": "Tue, 12 Nov 2024 22:14:15 +0000",
+"author": "Peter White",
+"content": [
+"Pale but bright",
+"Empty space",
+"Early sun, sets",
+"To golden rays.",
+" ",
+"From dawn till dusk:",
+"Pervasive, probing,",
+"Asking why with biting winds",
+"And a long night to think",
+"Of an answer."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem116",
+"title": "The Limb",
+"pubDate": "Fri, 15 Nov 2024 01:14:53 +0000",
+"author": "Peter White",
+"content": [
+"Rotten, falling off in bits,",
+"Blown away by a bomb,",
+"Or carefully, surgically removed.",
+"It makes no difference.",
+"The Limb is gone.",
+"Sometimes when they're all still there,",
+"Sometimes - every time - you drive on one road.",
+"Or think you hear a name on the wind.",
+"The journey is in the return."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem117",
+"title": "Perfect Days",
+"pubDate": "Sun, 17 Nov 2024 02:08:10 +0000",
+"author": "Peter White",
+"content": [
+"The sun rose, second.",
+"Shown softly, in apology",
+"On the window’s sill.",
+"Even my breath is music."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem118",
+"title": "Dependable Light",
+"pubDate": "Tue, 26 Nov 2024 21:13:03 +0000",
+"author": "Peter White",
+"content": [
+"Crawling tendrils lose their strength",
+"As evening nestles in, first in the valleys",
+"Then to my home.",
+"Today, its light: a brother,",
+"Other times, it is a friend.",
+" ",
+"Sometimes the light canters on-",
+"Even past the numbing clouds-",
+"A messenger, and the first to console.",
+" ",
+"Sometimes he comes, wise and unassuming",
+"To guide me on paths I cannot see.",
+" ",
+"So when his grip falls tired across the lawn",
+"I let mine do the same",
+"And trust the day will come again."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem119",
+"title": "Worship",
+"pubDate": "Tue, 04 Nov 2025 01:58:07 +0000",
+"author": "Peter White",
+"content": [
+"Clouds fall quilted",
+"On the first",
+"Evening since clocks turned back",
+" ",
+"Glowing with that",
+"Light created--",
+" ",
+"When I close my eyes",
+"And slowly open",
+"Or dust the altar of my pleasure",
+" ",
+"Created light floods the station",
+"Pours through every window",
+"Sneaks in, as I rest to its end"],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem120",
+"title": "My Rock, My River",
+"pubDate": "Wed, 05 Nov 2025 02:10:38 +0000",
+"author": "Peter White",
+"content": [
+"Buried Deep",
+"--as long as could matter",
+"You sift and search",
+"--until freed",
+"Turbulent and Tumbling at times",
+"--until water runs clear, and settles again",
+"My rock",
+"--my river",
+" ",
+"Until river is sea",
+"--until I am not me."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem121",
+"title": "Two Ships on the Subway",
+"pubDate": "Fri, 07 Nov 2025 02:10:41 +0000",
+"author": "Peter White",
+"content": [
+"Inches from good",
+"Steps from different",
+"Turned just by half",
+"To begin anew"],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem122",
+"title": "Pray Without Ceasing",
+"pubDate": "Sat, 08 Nov 2025 02:25:51 +0000",
+"author": "Peter White",
+"content": [
+"Pray without ceasing",
+"And without any church.",
+" ",
+"Pray without words",
+"except these: I love you",
+" ",
+"Without the altar",
+"Or any ancient rules",
+" ",
+"Pray without ceasing",
+"And don't dare tell God,",
+"Unless They are yours",
+"(so can be called You)",
+" ",
+"Unless They can change",
+"And you'd say it the same."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem123",
+"title": "Wound up here",
+"pubDate": "Wed, 12 Nov 2025 01:26:00 +0000",
+"author": "Peter White",
+"content": [
+"By a finger",
+"or a thread,",
+"Only trying to add more."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem124",
+"title": "Dark Eyed Junco",
+"pubDate": "Thu, 13 Nov 2025 01:38:01 +0000",
+"author": "Peter White",
+"content": [
+"With love in my Right Hand,",
+"A Soul in the left.",
+" ",
+"All creation is a friend",
+"And a friend is one",
+"I listen to.",
+" ",
+"They need not hear",
+"me speak, or know ",
+"My life at all.",
+" ",
+"A friend is one",
+"I listen to",
+" ",
+"And trust, and love,",
+"And believe is True."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem125",
+"title": "Far",
+"pubDate": "Wed, 15 Oct 2025 19:15:00 +0000",
+"author": "Peter White",
+"content": [
+"<strong>I.</strong>",
+"Not far enough.",
+" ",
+"The Spring pf sprung hamstrings failed to flight me flying",
+"But my starting point was far from the ledge.",
+" ",
+"Toppled turning, toes over tit",
+"Twirling with out",
+"Control-- that made it feel certain--",
+"Like twisting, tilted was the way it was",
+" ",
+"The Spring resets",
+"As Springs do.",
+" ",
+"The ledge greeted me quickly,",
+"And stunned me again and again",
+"As ledge meeting noses will do.",
+" ",
+"Faithful",
+"The Spring continued, unaware.",
+" ",
+"Or just unwilling.",
+"That is: without will.",
+" ",
+"<strong>II.</strong>",
+"But not as far",
+" ",
+"Or farther, but at least in a new direction",
+" ",
+"Now for certain",
+"Side stepped, Sunken, Soaring still",
+" ",
+"The only constant was the Spring.",
+" ",
+"<strong>III.</strong>",
+"And far enough",
+"To twist, twirl, top turned toward teh ground",
+"and not!",
+" ",
+"Not",
+"The ledge",
+"And nothing now to set the Spring against."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem126",
+"title": "Comfort Food",
+"pubDate": "Mon, 31 Mar 2025 19:30:00 +0000",
+"author": "Peter White",
+"content": [
+"Meals that fill the house",
+"as if announcing their arrival",
+"A scent and comfort, potent, ontollogical.",
+" ",
+"While I wait, I wait;",
+"A poem's first reading",
+"before April may prove its intents",
+"A light that is fleeting",
+"and a sparrow \"cheet-cheeting\"",
+"crows and mocking birds toss out their calls",
+"and cardinals are bleeting",
+" ",
+"Still the sauce simmers",
+"While tasks to be done are resigned",
+"To tomorrow, and sent with a sigh",
+" ",
+"Still the sauce simmers",
+"And the air still feels lighter",
+"While this comfort compresses",
+"And still the sauce simmers"],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem127",
+"title": "Healing",
+"pubDate": "Wed, 29 Oct 2025 19:43:00 +0000",
+"author": "Peter White",
+"content": [
+"I know no knots",
+"that tether kindly.",
+" ",
+"Soft yet firm",
+"Secure and supple.",
+" ",
+"I hold you tight",
+"and look away.",
+" ",
+"But on return",
+"my grip's a noose.",
+" ",
+"Focus then, to tie it different.",
+"Focused effort, is one day habit."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem128",
+"title": "Her",
+"pubDate": "Wed, 15 Oct 2025 18:31:00 +0000",
+"author": "Peter White",
+"content": [
+"If I were [Joaquin Phoenix]",
+"I'd fall for Her too",
+"Or, today, not fall but leap",
+" ",
+"Not a leap of passionate certainty",
+"Destined at death to vacillate to apathy",
+" ",
+"Leap of faith",
+"In me,",
+"and my faculties",
+" ",
+"Trust in my strength",
+"And the ability of my legs to fling me far",
+" ",
+"And far enough to not clip the edge."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem129",
+"title": "Untitled",
+"pubDate": "Thu, 13 Nov 2025 18:57:00 +0000",
+"author": "Peter White",
+"content": [
+"You don't have to",
+"Turn that stone.",
+" ",
+"Things happen",
+"I wish had not.",
+"I wish I had not.",
+" ",
+"The stone is still there",
+"It'll bleed when you make it."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem130",
+"title": "To Find the Path",
+"pubDate": "Fri, 14 Nov 2025 19:01:00 +0000",
+"author": "Peter White",
+"content": [
+"Trusting lively premonitions",
+" ",
+"Neglecting past admissions,",
+"Acceptance of omissions",
+" ",
+"When it speaks",
+"It speaks to me",
+"In moments peaking",
+"From the future,",
+" ",
+"As guidance,",
+"If I'll listen"],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem131",
+"title": "Bel Air Diner",
+"pubDate": "Sat, 15 Nov 2025 19:08:00 +0000",
+"author": "Peter White",
+"content": [
+"Clasped hands",
+"Holding an old friendship",
+" ",
+"A photo  captured,",
+"Commemorated the child's ecstasy",
+" ",
+"One more cup",
+"Before the next",
+"Or first order a milkshake",
+"with breakfast,",
+"And a server",
+"That fits herself"],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem132",
+"title": "Bones",
+"pubDate": "Sun, 16 Nov 2025 19:12:00 +0000",
+"author": "Peter White",
+"content": [
+"Flowing out",
+"And arranged--",
+" ",
+"Like the order of drops",
+"On a pane,",
+" ",
+"Or leaves piled in the fall--",
+" ",
+"As if there were",
+"No other option.",
+" ",
+"A poem can feel ",
+"Like a fist."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem133",
+"title": "The Garden of Eden",
+"pubDate": "Mon, 17 Nov 2025 19:16:00 +0000",
+"author": "Peter White",
+"content": [
+"I won't walk",
+"A single step",
+" ",
+"Unless you journey, too.",
+" ",
+"I won't eat",
+"Even one seed",
+" ",
+"Unless the planting is provisioned.",
+" ",
+"All flourishing is mutual;",
+"And I wouldn't think to,",
+"Without you."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem134",
+"title": "Stills",
+"pubDate": "Sun, 23 Nov 2025 19:25:00 +0000",
+"author": "Peter White",
+"content": [
+"Sun bleached,",
+"Whitening, contrast starkening",
+"Before fading into sameness",
+" ",
+"An expression that is no longer mine,",
+"But a feeling I am still within",
+" ",
+"Printed",
+" ",
+"Obtained, and so ",
+"Vulnerable to loss;",
+"Obtained and so indebted",
+"To protection",
+"To the labor that brings to being;",
+"Obtained and so committed",
+"To memory",
+"And open to ache--",
+" ",
+"Take the photo, still."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem135",
+"title": "November Affirmations",
+"pubDate": "Mon, 24 Nov 2025 19:31:00 +0000",
+"author": "Peter White",
+"content": [
+"To love what is mine",
+"Without claiming stake",
+"To love what I am of",
+"And that I may be bound--",
+" ",
+"Tethered to inconvenience",
+" ",
+"That I may serve toward",
+"Such tasks without hesitation",
+" ",
+"That I may do so,",
+"Especially when it is not easy",
+" ",
+"That I may do so,",
+"And renew this vow in a year:",
+" ",
+"To love what is mine",
+"Without claiming stake",
+"To love what I am of",
+"And that I may be bound."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem136",
+"title": "Communing",
+"pubDate": "Wed, 26 Nov 2025 19:39:00 +0000",
+"author": "Peter White",
+"content": [
+"Let's go for a walk",
+"One with words and open spaces.",
+"I wanted more from our talk-",
+"So I ask and hear",
+"The outdoor's phrases"],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem137",
+"title": "Paneer",
+"pubDate": "Thu, 27 Nov 2025 19:41:00 +0000",
+"author": "Peter White",
+"content": [
+"Simply sustaining",
+"Unexpected and complete",
+"So mundane as to seem divine",
+" ",
+"I learn every year",
+"How good this can be",
+"Simple and sustaining",
+"Without expectations.",
+"Complete.",
+" ",
+"I learn every year."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem138",
+"title": "Grateful",
+"pubDate": "Fri, 28 Nov 2025 19:44:00 +0000",
+"author": "Peter White",
+"content": [
+"the sun may rise too",
+"Soon while I still rest",
+" ",
+"Or set behind a curtain of clouds.",
+"My legs may cease their carrying",
+"While my arms lose dexterity",
+" ",
+"No one will ever be there",
+"Through it all",
+" ",
+"But the Earth still spins,",
+"My heart still beats",
+"And they are here now."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem139",
+"title": "Love as Witness",
+"pubDate": "Sat, 29 Nov 2025 19:46:00 +0000",
+"author": "Peter White",
+"content": [
+"It is not mine",
+"except to see",
+"except the pull to linger,",
+"In the morning",
+"In the grocery",
+"wondering if you are in need",
+" ",
+"You are not mine",
+"except to witness,",
+"and think about when work is slow,",
+"and to bound my vision onto beauty",
+" ",
+"What is mine is this:",
+"The promise to see,",
+"To witness, to renew this",
+"Promise in a year."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem140",
+"title": "Novembers' Exit",
+"pubDate": "Sun, 30 Nov 2025 19:49:00 +0000",
+"author": "Peter White",
+"content": [
+"This could be what it looks like;",
+"Eyes settled,",
+"Content to soften focus",
+"Toward the window.",
+" ",
+"To welcome nights",
+"And wait eagerly for dawn.",
+" ",
+"It might just look like",
+"The days when November",
+"Bleeds in to December.",
+"When the year ends,",
+"The next now in sight."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem141",
+"title": "When This is The Start",
+"pubDate": "Sat, 14 Feb 2026 20:23:00 +0000",
+"author": "Peter White",
+"content": [
+"I begin to know The End.",
+" ",
+"When this is how it starts--",
+"The front porch sun,",
+"on everyday wrinkling skin;",
+"The swing we will build",
+"(have built),",
+"in the old oak;",
+"The gray you've started",
+"growing, long after mine",
+"-- All comes into focus",
+"And the light from",
+"Prophetic visions bends",
+"(exactly like a memory).",
+" ",
+"When this is The Start,",
+"All my thoughts bend ",
+"toward a smile;",
+"And all my heart wants that ending;",
+"Then the beating calms",
+"For knowledge It is Ours."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem142",
+"title": "Neighborly",
+"pubDate": "Wed, 15 Apr 2026 19:38:07 +0000",
+"author": "Peter White",
+"content": [
+"I start to feel--",
+"as the bus kneels",
+"and the Dog's Bark quiets,",
+"remembering my routine",
+"--like there is space.",
+" ",
+"For me, or (I pray to remember)",
+" ",
+"There is space for another,",
+"Stood on the curb.",
+"With every reason to see.",
+"There is space.",
+" ",
+"For one more, on that never full bus",
+" ",
+"In hard times,",
+"Food is kept in the belly of a brother."],
+"postStatus": "publish"
+}
+
+,{
+"postID":"poem143",
 "title": "Haircuts",
 "pubDate": "Thu, 16 Apr 2026 18:28:25 +0000",
 "author": "Peter White",
@@ -17,11 +3295,10 @@
 " ",
 "My best guess is that's the same."],
 "postStatus": "publish"
+}
 
-},
-{
-
-"postID": "poem2",
+,{
+"postID":"poem144",
 "title": "THE MAW THAT KNOWS NOT",
 "pubDate": "Thu, 16 Apr 2026 18:31:01 +0000",
 "author": "Peter White",
