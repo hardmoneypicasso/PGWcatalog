@@ -235,28 +235,31 @@
                 console.log("postID: " + listItem.id);
 
                 const listTitle = document.createElement("h2");
-                listTitle.textContent = obj.title;
+                listTitle.textContent = post.title;
                 listItem.appendChild(listTitle);
                 
                 const listPreface = document.createElement("h3");
-                listPreface.textContent = obj.preface;
+                listPreface.textContent = post.preface;
                 listItem.appendChild(listPreface);
 
                 const listDate = document.createElement("p");
-                listDate.textContent = "Published on " + obj.pubDate;
+                listDate.textContent = "Published on " + post.pubDate;
                 listItem.appendChild(listDate);
 
                 mainList.appendChild(listItem);
+
+                const itemButton = document.querySelector("#" + post.postID);
+
+                itemButton.addEventListener("click", (e) => openPost(post, post.postID));
                 
                 console.log(post.title + " list item created");
             }
 
-            function openPost(obj, ID) {
+            function openPost(post, ID) {
                 // MAIN FUNCTION --- REMOVES LIST AND ADDS POST CONTENT TO MAIN BLOCK
 
-                console.log(obj.postID + " clicked!");
-                
-                console.log("Opening post: " + obj.postID);
+                console.log(post.postID + " clicked!");
+                console.log("Opening post: " + post.postID);
 
                 //remove the loaded list of all posts from #contentList
                 const contentList = document.querySelector("#mainList");
@@ -268,22 +271,36 @@
                 main.appendChild(mainContent);
                 mainContent.setAttribute("id", "mainContent");
 
-                
+                // creates title of post in h1 formatting
                 const postTitle = document.createElement("h1");
-                postTitle.textContent = obj.title;
+                postTitle.textContent = post.title;
                 mainContent.appendChild(postTitle);
 
+                // if there is a preface, it goes here in h2 formatting
                 const postPreface = document.createElement("h2");
-                postPreface.textContent = obj.preface;
+                postPreface.textContent = post.preface;
                 mainContent.appendChild(postPreface);
 
                 //iterates to create new paragraphs for each section of the post
-                const postContent = obj.content;
-                postContent.forEach((paragraph) => {
-                    const p = document.createElement("p");
-                    p.textContent = paragraph;
-                    mainContent.appendChild(p);
-                    console.log("Paragraph added: " + p.textContent);
+                const postContent = post.content;
+                postContent.forEach((stanza) => {
+                    if (stanza === " ") {
+                        const br = document.createElement("br");
+                        mainContent.appendChild(br);
+                    } else if (stanza === "HEADER"){
+                        const br = document.createElement("br");
+                        mainContent.appendChild(br);
+                        const h2 = document.createElement("h2");
+                        h2.textContent = stanza;
+                        mainContent.appendChild(h2);                        
+                    } else if (stanza === "CLOSEHEADER"){
+                        const br = document.createElement("br");
+                        mainContent.appendChild(br);                        
+                    } {
+                        const p = document.createElement("p");
+                        p.textContent = stanza;
+                        mainContent.appendChild(p);
+                    }
                 });
                 
                 console.log("Post opened: " + ID);
