@@ -72,10 +72,10 @@
                             <li id = "poems">Poems</li>
                         </ol>
                     </nav>
-
+                    
+                    <h1 id = "title" class = "listView">Poems</h1>
+                    
                     <article id = "mainList">
-
-                        <h1 id = "title" class = "listView">Poems</h1>
 
                     </article>
                 </main>
@@ -230,6 +230,8 @@
 
             function createListItem(post, mainList){
                 
+                // STILL TO ADD: CORRECT DATE FORMATTING, REVERSE LIST ORDER
+
                 const listItem = document.createElement("div");
                 listItem.setAttribute("id", post.postID);
                 console.log("postID: " + listItem.id);
@@ -246,7 +248,7 @@
                 listDate.textContent = "Published on " + post.pubDate;
                 listItem.appendChild(listDate);
 
-                mainList.appendChild(listItem);
+                mainList.prepend(listItem);
 
                 const itemButton = document.querySelector("#" + post.postID);
 
@@ -284,6 +286,8 @@
                 //iterates to create new paragraphs for each section of the post
                 const postContent = post.content;
                 postContent.forEach((stanza) => {
+                    
+                    // STILL TO ADD: RIGHT/LEFT/CENTER ALIGN, INDENT, LINKS/ANCHORS
                     if (stanza === " ") {
                         const br = document.createElement("br");
                         mainContent.appendChild(br);
