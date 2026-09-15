@@ -74,9 +74,11 @@
                         </ol>
                     </nav>
 
+                    <h1 id = "title" class = "listView">Blogs</h1>
+
                     <article id = "mainList">
 
-                        <h1 id = "title" class = "listView">Blogs</h1>
+                        
 
                     </article>
                 </main>
@@ -254,6 +256,8 @@
                 console.log("Opening post: " + obj.postID);
 
                 //remove the loaded list of all posts from #contentList
+                const listTitle = document.querySelector("#title");
+                listTitle.remove();
                 const contentList = document.querySelector("#mainList");
                 contentList.remove();
 
@@ -263,7 +267,13 @@
                 main.appendChild(mainContent);
                 mainContent.setAttribute("id", "mainContent");
 
-                
+                // puts date in small text at the top of the post
+                const postDateItem = document.createElement("p");
+                postDateItem.textContent = "Published on " + obj.pubDate;
+                postDateItem.id = "postDateText";
+                mainContent.appendChild(postDateItem);
+
+
                 const postTitle = document.createElement("h1");
                 postTitle.textContent = obj.title;
                 mainContent.appendChild(postTitle);

@@ -278,16 +278,12 @@
                 main.appendChild(mainContent);
                 mainContent.setAttribute("id", "mainContent");
 
-                // puts date in small text at the bottom of the post
+                // puts date in small text at the top of the post
                 const postDateItem = document.createElement("p");
                 // manages date formatting
                 const postDate = new Date(post.pubDate);
                 postDateItem.textContent = "Published on " + postDate.toLocaleDateString();
                 postDateItem.id = "postDateText";
-
-                const br = document.createElement("br");
-                mainContent.appendChild(br); 
-                mainContent.appendChild(br); 
                 mainContent.appendChild(postDateItem);
 
                 // creates title of post in h1 formatting

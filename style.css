@@ -131,6 +131,20 @@
 
             #mainContent h2{
                 font-style: italic;
+                margin-bottom: 20px;
+            }
+
+            #mainContent p{
+                margin-bottom: 20px;
+            }
+
+            #mainContent #postDateText{
+                padding: 0px;
+            }
+
+            #title {
+                margin: 0%;
+                padding: 0%;
             }
 
             /* BLOG LIST */
@@ -150,6 +164,7 @@
 
             #postDateText {
                 font-family: 'Nunito';
+                color: #343A1A99;
                 font-size: 1em;
                 padding-top: 1px;
                 padding-bottom: 1px;
