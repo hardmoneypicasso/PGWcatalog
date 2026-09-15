@@ -67,7 +67,7 @@
                 <main>
                     <!-- BREADCRUMB LIST -->
                     <nav id="breadcrumbList" class="breadcrumb">
-                        <ol>
+                        <ol id="breadcrumbOrderedList">
                             <li id = "home">Home</li>
                             <li id = "poems">Poems</li>
                         </ol>
@@ -244,8 +244,11 @@
                 listPreface.textContent = post.preface;
                 listItem.appendChild(listPreface);
 
+                // manages date formatting
+                const postDate = new Date(post.pubDate);
+
                 const listDate = document.createElement("p");
-                listDate.textContent = "Published on " + post.pubDate;
+                listDate.textContent = "Published on " + postDate.toLocaleDateString();
                 listItem.appendChild(listDate);
 
                 mainList.prepend(listItem);
@@ -264,6 +267,8 @@
                 console.log("Opening post: " + post.postID);
 
                 //remove the loaded list of all posts from #contentList
+                const listTitle = document.querySelector("#title");
+                listTitle.remove();
                 const contentList = document.querySelector("#mainList");
                 contentList.remove();
 
@@ -272,6 +277,18 @@
                 const mainContent = document.createElement("article");
                 main.appendChild(mainContent);
                 mainContent.setAttribute("id", "mainContent");
+
+                // puts date in small text at the bottom of the post
+                const postDateItem = document.createElement("p");
+                // manages date formatting
+                const postDate = new Date(post.pubDate);
+                postDateItem.textContent = "Published on " + postDate.toLocaleDateString();
+                postDateItem.id = "postDateText";
+
+                const br = document.createElement("br");
+                mainContent.appendChild(br); 
+                mainContent.appendChild(br); 
+                mainContent.appendChild(postDateItem);
 
                 // creates title of post in h1 formatting
                 const postTitle = document.createElement("h1");
@@ -306,7 +323,13 @@
                         mainContent.appendChild(p);
                     }
                 });
-                
+
+                // updates breadcrumb
+                const bc = document.querySelector("#breadcrumbOrderedList");
+                const newbc = document.createElement("li");
+                newbc.textContent = post.postID;
+                bc.appendChild(newbc);
+
                 console.log("Post opened: " + ID);
 
 

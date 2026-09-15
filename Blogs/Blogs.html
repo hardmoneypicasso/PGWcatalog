@@ -68,7 +68,7 @@
                 <main>
                     <!-- BREADCRUMB LIST -->
                     <nav id="breadcrumbList" class="breadcrumb">
-                        <ol>
+                        <ol id="breadcrumbOrderedList">
                             <li id = "home">Home</li>
                             <li id = "blogs">Blogs</li>
                         </ol>
@@ -303,6 +303,12 @@
                         mainContent.appendChild(p);
                     }
                 });
+
+                // updates breadcrumb
+                const bc = document.querySelector("#breadcrumbOrderedList");
+                const newbc = document.createElement("li");
+                newbc.textContent = obj.postID;
+                bc.appendChild(newbc);
                 
                 console.log("Post opened: " + ID);
 

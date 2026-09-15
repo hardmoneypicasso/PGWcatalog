@@ -148,6 +148,15 @@
                 font-style: italic;
             }
 
+            #postDateText {
+                font-family: 'Nunito';
+                font-size: 1em;
+                padding-top: 1px;
+                padding-bottom: 1px;
+                margin: 1px;
+                font-style: italic;
+            }
+
             /* LOGS */
             #logsHome {
                 background-color: #b19ed3ef;
