@@ -67,15 +67,15 @@
                 <main>
                     <!-- BREADCRUMB LIST -->
                     <nav id="breadcrumbList" class="breadcrumb">
-                        <ol>
+                        <ol id="breadcrumbOrderedList">
                             <li id = "home">Home</li>
                             <li id = "poems">Poems</li>
                         </ol>
                     </nav>
-
+                    
+                    <h1 id = "title" class = "listView">Poems</h1>
+                    
                     <article id = "mainList">
-
-                        <h1 id = "title" class = "listView">Poems</h1>
 
                     </article>
                 </main>
@@ -230,6 +230,8 @@
 
             function createListItem(post, mainList){
                 
+                // STILL TO ADD: CORRECT DATE FORMATTING, REVERSE LIST ORDER
+
                 const listItem = document.createElement("div");
                 listItem.setAttribute("id", post.postID);
                 console.log("postID: " + listItem.id);
@@ -242,11 +244,14 @@
                 listPreface.textContent = post.preface;
                 listItem.appendChild(listPreface);
 
+                // manages date formatting
+                const postDate = new Date(post.pubDate);
+
                 const listDate = document.createElement("p");
-                listDate.textContent = "Published on " + post.pubDate;
+                listDate.textContent = "Published on " + postDate.toLocaleDateString();
                 listItem.appendChild(listDate);
 
-                mainList.appendChild(listItem);
+                mainList.prepend(listItem);
 
                 const itemButton = document.querySelector("#" + post.postID);
 
@@ -262,6 +267,8 @@
                 console.log("Opening post: " + post.postID);
 
                 //remove the loaded list of all posts from #contentList
+                const listTitle = document.querySelector("#title");
+                listTitle.remove();
                 const contentList = document.querySelector("#mainList");
                 contentList.remove();
 
@@ -270,6 +277,14 @@
                 const mainContent = document.createElement("article");
                 main.appendChild(mainContent);
                 mainContent.setAttribute("id", "mainContent");
+
+                // puts date in small text at the top of the post
+                const postDateItem = document.createElement("p");
+                // manages date formatting
+                const postDate = new Date(post.pubDate);
+                postDateItem.textContent = "Published on " + postDate.toLocaleDateString();
+                postDateItem.id = "postDateText";
+                mainContent.appendChild(postDateItem);
 
                 // creates title of post in h1 formatting
                 const postTitle = document.createElement("h1");
@@ -284,6 +299,8 @@
                 //iterates to create new paragraphs for each section of the post
                 const postContent = post.content;
                 postContent.forEach((stanza) => {
+                    
+                    // STILL TO ADD: RIGHT/LEFT/CENTER ALIGN, INDENT, LINKS/ANCHORS
                     if (stanza === " ") {
                         const br = document.createElement("br");
                         mainContent.appendChild(br);
@@ -302,7 +319,13 @@
                         mainContent.appendChild(p);
                     }
                 });
-                
+
+                // updates breadcrumb
+                const bc = document.querySelector("#breadcrumbOrderedList");
+                const newbc = document.createElement("li");
+                newbc.textContent = post.postID;
+                bc.appendChild(newbc);
+
                 console.log("Post opened: " + ID);
 
 
