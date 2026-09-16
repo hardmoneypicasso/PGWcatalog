@@ -295,6 +295,7 @@
                 let linkCheck = false;
                 let linkVar = "none";
                 let specialP;
+                let specialA;
                 postContent.forEach((paragraph) => {
                     
                     // checks type of post
@@ -321,7 +322,7 @@
                                 
                                 // resets at end of special formatting, else continues
                                 pSpecialCheck = false;
-
+                                mainContent.appendChild(specialP);
                             }else{
                             
                                 if(paragraph ==="LINK"){
@@ -329,20 +330,20 @@
                                 }else if(linkCheck == true){
                                     if(linkVar === "none"){
                                         if(paragraph === "LINK URL"){
-                                            const a = document.createElement("a");
+                                            specialA = document.createElement("a");
                                         } else{
-                                            a.setAttribute("href", paragraph);
+                                            specialA.setAttribute("href", paragraph);
                                             linkVar = "url";
                                         }
                                     } else if (linkVar === "url"){
                                         if(paragraph === "LINK NAME"){
                                             // nothing needed, link name is kept for clarity in the JSON file
                                         } else{
-                                            a.textContent = paragraph;
+                                            specialA.textContent = paragraph;
                                             linkVar = "name";
                                         }
                                     } else if (linkVar === "name"){
-                                        specialP.append(a);
+                                        specialP.append(specialA);
                                         linkVar = "none";
                                         linkCheck = false;
                                     }
