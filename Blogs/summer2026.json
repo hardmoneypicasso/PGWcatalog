@@ -11,7 +11,7 @@
 
                     "There is a lot to be done, but it's taken a lot to get here too. Thank you for checking out my site, and keep reading if you're interested in more updates from my life! If this is as far as you're reading now, I'll try to get you back here in the Fall where I'll have a mailing list, working catalogs of all my work, and a guestbook to sign!",
 
-                    "HEADER","A new site! And how it came to be!","CLOSEHEADER",
+                    "START H2","A new site! And how it came to be!",
 
                     "I submitted my first short story to the Stevens writing contest in the Spring of 2020, and immediately wanted to keep track of my writings in a way that allowed me to easily share them. I created a Wordpress website and posted “American Icarus,” the story which won me second place, and a Kindle Fire. ",
 
@@ -23,13 +23,59 @@
 
                     "So… if you are continuing to read here, after I have come down from my soapbox, welcome! ",
 
-                    "At this moment I'm still working out how I want to organize the backend of my catalogs, for poetry, prose, photos or anything else, and so those sections are still under construction. Check back soon if you do want to take a look at any of those sections! I expect that the bulk of the formatting may continue to change, but I am happy with how it looks now, so I hope you enjoy! I began this process by looking through the amazing sites on <a href=\"neocities.org\">neocities</a>, and was really inspired by the user <a href=\"seafare.neocities.org\">seafare's</a> simple but care-filled style. From their site I was pointed towards <a href=\"https://sadgrlonline.github.io/archived-sadgrl.online/projects/layout-builder/\">sadgrlonline's layout builder</a> where I was really able to get off the ground. Once I had a layout in the rough shape I wanted, it just took a few weeks of tweaking and re-tweaking, drawing and re-drawing. Feel free to look through the website's code if you'd like! It's all kept and updated via <a href=\"https://github.com/hardmoneypicasso/PGWcatalog\">github</a>. And if you are looking to build your own site, I can highly recommend <a href=\"https://sadgrlonline.github.io/archived-sadgrl.online/projects/layout-builder/\">sadgrlonline's</a> free resource, and <a href=\"https://developer.mozilla.org/en-US/\">mozilla's developer tutorials</a>. It is such a satisfying experience to create something that is truly bespoke and just how you were able to make it, and if you need help I would love to offer my extremely limited knowledge.",
+                    "START P",
+                    
+                    "At this moment I'm still working out how I want to organize the backend of my catalogs, for poetry, prose, photos or anything else, and so those sections are still under construction. Check back soon if you do want to take a look at any of those sections! I expect that the bulk of the formatting may continue to change, but I am happy with how it looks now, so I hope you enjoy! I began this process by looking through the amazing sites on ",
+                    "LINK",
+                    "LINK URL",
+                    "neocities.org",
+                    "LINK NAME",
+                    "neocities",
+                    ", and was really inspired by the user ",
+                    "LINK",
+                    "LINK URL",
+                    "seafare.neocities.org",
+                    "LINK NAME",
+                    "seafare's",
+                    " simple but care-filled style. From their site I was pointed towards ",
+                    "LINK",
+                    "LINK URL",
+                    "https://sadgrlonline.github.io/archived-sadgrl.online/projects/layout-builder/",
+                    "LINK NAME",
+                    "sadgrlonline's layout builder",
+                    " where I was really able to get off the ground. Once I had a layout in the rough shape I wanted, it just took a few weeks of tweaking and re-tweaking, drawing and re-drawing. Feel free to look through the website's code if you'd like! It's all kept and updated via ",
+                    "LINK",
+                    "LINK URL",
+                    "https://github.com/hardmoneypicasso/PGWcatalog",
+                    "LINK NAME",
+                    "github",
+                    ". And if you are looking to build your own site, I can highly recommend ",
+                    "LINK",
+                    "LINK URL",
+                    "https://sadgrlonline.github.io/archived-sadgrl.online/projects/layout-builder/",
+                    "LINK NAME",
+                    "sadgrlonline's",
+                    " free resource, and ",
+                    "LINK",
+                    "LINK URL",
+                    "https://developer.mozilla.org/en-US/",
+                    "LINK NAME",
+                    "mozilla's developer tutorials",
+                    ". It is such a satisfying experience to create something that is truly bespoke and just how you were able to make it, and if you need help I would love to offer my extremely limited knowledge.",
+                    "END P",
 
                     "In addition to managing my posts, Wordpress hosted my site and acted as my domain's registrar. So to make my site really my own I had to find a new host and registrar. As my self imposed deadline of the summer solstice approached, this task became a bit more daunting everyday. I'm slowly learning about the architecture of the internet, but I am happy to defer to more knowledgeable people… so recommendations from a friend resulted in free hosting through vercel (vercel.com), and my domain remains with wordpress for the time being. I'm sure these will change and be included in the next update coming in Fall, when I will have figured out what I want out of these services. Hopefully.",
 
-                    "Again due to the self-imposed deadline, you'll notice that this is the only active page on the site, while all other links take you to the “under construction” page. I want my catalogs of work to be presentable, and those parts of the site to be interactive. For now, this is just a blog post and a pretty facade… but in the Fall you'll get to see it all! If you want to check out my work to this point, my poetry and stories are still on wordpress <a href=\"thevineandfigtree.org\">here</a>.",
+                    "Again due to the self-imposed deadline, you'll notice that this is the only active page on the site, while all other links take you to the “under construction” page. I want my catalogs of work to be presentable, and those parts of the site to be interactive. For now, this is just a blog post and a pretty facade… but in the Fall you'll get to see it all! If you want to check out my work to this point, my poetry and stories are still on wordpress ",
+                    "LINK",
+                    "LINK URL",
+                    "thevineandfigtree.org",
+                    "LINK NAME",
+                    "here",
+                    ".",
+                    "END P",
 
-                    "HEADER","The same life! And how it has developed!","CLOSEHEADER",
+                    "START H2","The same life! And how it has developed!",
 
                     "The website itself has taken a lot of thought and planning, but I am most excited for the avenues it will help me create to continue my writing. I've been intimidated by the casual and genuine world of blogging, so, as this homepage shows, I'm making it a focal point! I'm looking forward to becoming more comfortable writing about my life, and for how it will integrate with my journaling practice that already has its own rhythm. Each season's change will be accompanied with a longer form, more public (kind of) meditation. And that sounds like a good time to me. So, here it is, wading in to blogging.",
 
@@ -39,7 +85,7 @@
 
                     "I learned from rereading my journal entries every year that I often say, surprised, that the most recent time in my life has been the best time yet. It almost makes me feel like an unreliable narrator, but I wouldn't have it any other way. 2026 has only solidified that pattern; moving in with my partner, advancing at my first permanent job, living in New York in such an important time for the city, it's all so much more than I could have imagined a year ago. While I miss home from time to time, I have never felt more surrounded by love. ",
 
-                    "HEADER"," Creative updates! And where it will go next!","CLOSEHEADER",
+                    "START H2"," Creative updates! And where it will go next!",
 
                     "From my other writing practices I've been learning more and more that it is a muscle you have to keep active. With more recent focus on physical crafts, it has been difficult to write this update, especially in a format I've never really tried before. When Fall comes around, my only hope is that I'll be more comfortable writing in my blog. Well… I hope I'll have a raise at work, plenty of sewing projects and new woodworking to show off, and many other blessings. But I also hope I'll be more comfortable writing in my blog! And I'm extremely thankful for anyone who read this far! ",
 

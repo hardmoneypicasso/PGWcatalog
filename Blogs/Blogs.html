@@ -17,7 +17,7 @@
             <!-- HEADER -->
             <div id="headerArea">
                 <div id="header" style="margin-bottom: 10px; margin-top:10; height: 150px;">
-                    <a href="../index.html">
+                    <a href="../home.html">
                         <img src="../media/headerlogo-1.png" height=150>
                     </a>
                 </div>
@@ -121,7 +121,7 @@
             const navArea= document.querySelector("#mobNav");
             // const poemsItem= document.querySelector("#poemsNavBar");
             const navList= document.querySelector("#navMenu");
-            const navItems= ["poems","prose","pics","blogs","logs"];
+            const navItems= ["poems","blogs","prose","pics","logs"];
 
             menuBtn.addEventListener("click", navOpen);
             
@@ -132,10 +132,12 @@
                         const item = document.createElement("li");
                         const anchor = document.createElement("a");
                         
-                        if(navItems[i]=='logs'){
-                            anchor.href = "logs.html"
+                        if(navItems[i]=='poems'){
+                            anchor.href = "../Poems/Poetry.html"
+                        }else if(navItems[i]=='blogs'){
+                            anchor.href = "../Blogs/Blogs.html";
                         }else{
-                            anchor.href = "underConstruction.html";
+                            anchor.href = "../underConstruction.html";
                         }
                         
                         const imageL = document.createElement("img");
@@ -224,7 +226,9 @@
                 const mainList = document.querySelector("#mainList");
                 
                 const listItem = document.createElement("div");
-                listItem.setAttribute("id", obj.postID);
+                const idString = obj.postID;
+                const idText = idString.split(" ");
+                listItem.setAttribute("id", idText[0] + idText[1]);
                 console.log("postID: " + listItem.id);
 
                 const listTitle = document.createElement("h2");
@@ -243,7 +247,7 @@
 
                 console.log("list populated");
 
-                const itemButton = document.querySelector("#" + obj.postID);
+                const itemButton = document.querySelector("#" + listItem.id);
 
                 itemButton.addEventListener("click", (e) => openPost(obj, obj.postID));
             }
@@ -284,33 +288,87 @@
 
                 //iterates to create new paragraphs for each section of the post
                 const postContent = obj.content;
-                let subHead = false;
+                const postType= obj.postID;
+                // instantiates variables to check for special formatting
+                let h2Check = false;
+                let pSpecialCheck = false;
+                let linkCheck = false;
+                let linkVar = "none";
+                let specialP;
                 postContent.forEach((paragraph) => {
-                    console.log("subhead is " + subHead);
                     
-                    if (subHead == true) {
-                        const h2 = document.createElement("h2");
-                        h2.textContent = paragraph;
-                        mainContent.appendChild(h2);
-
-                        subHead = false;
-                        console.log("subhead is now " + subHead);
-                    } else if (paragraph === " ") {
-                        const br = document.createElement("br");
-                        mainContent.appendChild(br);
-                    } else if (paragraph === "HEADER"){
-                        const br = document.createElement("br");
-                        mainContent.appendChild(br);
+                    // checks type of post
+                    if (postType.split(" ")[0] === "poem") {
                         
-                        subHead = true;
-                        console.log("subhead is now " + subHead);
-                    } else if (paragraph === "CLOSEHEADER"){
-                        const br = document.createElement("br");
-                        mainContent.appendChild(br); 
-                    } else {
-                        const p = document.createElement("p");
-                        p.textContent = paragraph;
-                        mainContent.appendChild(p);
+                        // To fill with poem formatting code later
+
+                    } else {    
+                        // currently only other type is blog, so this is where blog formatting code goes
+
+                        // checks for special formatting first
+                        if(h2Check == true){
+
+                            // if h2Check is true, creates header and sets h2Check to false
+                            const h2 = document.createElement("h2");
+                            h2.textContent = paragraph;
+                            mainContent.appendChild(h2);
+
+                            h2Check = false;
+                        }else if(pSpecialCheck == true){
+                            
+                            // checks end of special paragraph formatting
+                            if(paragraph === "END P"){
+                                
+                                // resets at end of special formatting, else continues
+                                pSpecialCheck = false;
+
+                            }else{
+                            
+                                if(paragraph ==="LINK"){
+                                    linkCheck = true;
+                                }else if(linkCheck == true){
+                                    if(linkVar === "none"){
+                                        if(paragraph === "LINK URL"){
+                                            const a = document.createElement("a");
+                                        } else{
+                                            a.setAttribute("href", paragraph);
+                                            linkVar = "url";
+                                        }
+                                    } else if (linkVar === "url"){
+                                        if(paragraph === "LINK NAME"){
+                                            // nothing needed, link name is kept for clarity in the JSON file
+                                        } else{
+                                            a.textContent = paragraph;
+                                            linkVar = "name";
+                                        }
+                                    } else if (linkVar === "name"){
+                                        specialP.append(a);
+                                        linkVar = "none";
+                                        linkCheck = false;
+                                    }
+                                }else{
+                                    specialP.textContent += paragraph;
+                                }
+                            }
+                        }else{
+
+                            // checks for special formatting indicator, exits if present, 
+                            // otherwise creates a new paragraph with the text content of the current paragraph
+                            if(paragraph === "START H2"){
+                                h2Check = true;
+                            } else if (paragraph === "START P"){
+                                pSpecialCheck = true;
+                                specialP = document.createElement("p");
+                            } else{
+
+                                // Case: no special formatting
+                                const p = document.createElement("p");
+                                p.textContent = paragraph;
+                                mainContent.appendChild(p);
+
+                            }
+                        } 
+
                     }
                 });
 

@@ -205,7 +205,7 @@
             const navArea= document.querySelector("#mobNav");
             // const poemsItem= document.querySelector("#poemsNavBar");
             const navList= document.querySelector("#navMenu");
-            const navItems= ["poems","prose","pics","blogs","logs"];
+            const navItems= ["poems","blogs","prose","pics","logs"];
 
             menuBtn.addEventListener("click", navOpen);
             
@@ -216,8 +216,10 @@
                         const item = document.createElement("li");
                         const anchor = document.createElement("a");
                         
-                        if(navItems[i]=='logs'){
-                            anchor.href = "logs.html"
+                        if(navItems[i]=='poems'){
+                            anchor.href = "Poems/Poetry.html"
+                        }else if(navItems[i]=='blogs'){
+                            anchor.href = "Blogs/Blogs.html";
                         }else{
                             anchor.href = "underConstruction.html";
                         }
