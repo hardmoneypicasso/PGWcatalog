@@ -3,7 +3,7 @@
   <head>
     <!-- style sheet -->
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobileStyle.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="../mobileStyle.css">
 
     <!-- meta data -->
     <meta charset = "UTF-8">
@@ -25,9 +25,9 @@
                 <nav id="mobNav">
                         <div id="navMenuButton" class="menuClosed" >
                             <h1>
-                                <img src="media/starSprite.png" height=70 style= "padding-top: -5px; padding-bottom: 5px; transform:translateY(30px);">
+                                <img src="../media/starSprite.png" height=70 style= "padding-top: -5px; padding-bottom: 5px; transform:translateY(30px);">
                                 navigation
-                                <img src="media/starSprite.png" height=70 style= "padding-top: -5px; padding-bottom: 5px; transform:translateY(30px)">
+                                <img src="../media/starSprite.png" height=70 style= "padding-top: -5px; padding-bottom: 5px; transform:translateY(30px)">
                             </h1>
                         </div>
                         <ul id="navMenu">
@@ -224,23 +224,34 @@
                 console.log("list populating");
 
                 const mainList = document.querySelector("#mainList");
+
+                const listContent = obj.posts;
+                listContent.forEach((post) => {
+                    console.log("Creating list item for: " + post.title);
+                    createListItem(post, mainList);
+                });
+            }
+
+            function createListItem(post, mainList) {
+                // STILL TO ADD: CORRECT DATE FORMATTING, REVERSE LIST ORDER
+
                 
                 const listItem = document.createElement("div");
-                const idString = obj.postID;
+                const idString = post.postID;
                 const idText = idString.split(" ");
                 listItem.setAttribute("id", idText[0] + idText[1]);
                 console.log("postID: " + listItem.id);
 
                 const listTitle = document.createElement("h2");
-                listTitle.textContent = obj.title;
+                listTitle.textContent = post.title;
                 listItem.appendChild(listTitle);
                 
                 const listPreface = document.createElement("h3");
-                listPreface.textContent = obj.preface;
+                listPreface.textContent = post.preface;
                 listItem.appendChild(listPreface);
 
                 const listDate = document.createElement("p");
-                listDate.textContent = "Published on " + obj.pubDate;
+                listDate.textContent = "Published on " + post.pubDate;
                 listItem.appendChild(listDate);
 
                 mainList.appendChild(listItem);
@@ -249,7 +260,7 @@
 
                 const itemButton = document.querySelector("#" + listItem.id);
 
-                itemButton.addEventListener("click", (e) => openPost(obj, obj.postID));
+                itemButton.addEventListener("click", (e) => openPost(post, post.postID));
             }
 
             function openPost(obj, ID) {
