@@ -219,7 +219,7 @@
                 
                 console.log("fetching catalog");
                 const requestURL =
-                    "https://raw.githubusercontent.com/hardmoneypicasso/PGWcatalog/refs/heads/main/Blogs/summer2026.json";
+                    "https://raw.githubusercontent.com/hardmoneypicasso/PGWcatalog/refs/heads/main/Blogs/blogsCatalog.json";
                 const request = new Request(requestURL);
 
                 const response = await fetch(request);
@@ -234,7 +234,7 @@
             function populateHome(blogCatalog) {
                 const mainList = document.querySelector("#mainContent");
 
-                const obj =blogCatalog.posts[1];
+                const obj =blogCatalog.posts[0];
 
                 // puts date in small text at the top of the post
                 const postDateItem = document.createElement("p");
